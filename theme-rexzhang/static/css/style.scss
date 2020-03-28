@@ -1,0 +1,325 @@
+// import rPress common css define
+@import "../../../static/common";
+
+//------------------------------------------------------
+// global variables
+.font-common {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+
+.area-common {
+  padding: $base-page-blank-width * 1.75 $base-page-blank-width $base-page-blank-width * 1.75 $base-page-blank-width;
+}
+
+.underline-box {
+  border-bottom: 1px solid;
+  border-bottom-color: $color-silver;
+}
+
+//------------------------------------------------------
+//fill full page
+$footer-height: 10em;
+
+html, body {
+  height: 100%;
+}
+
+.fill-fullpage-wrapper {
+  min-height: 100%;
+
+  /* the bottom margin is the negative value of the footer's height */
+  margin: 0 (auto - $footer-height);
+}
+
+//------------------------------------------------------
+//h1 site title, error handler title
+//h2 post title, login etc...function page title
+//h3 post@rollcell title, site title@footer
+//h4 widget title/footer widget title
+//h5 sub-title
+//h6 site desc
+h1, h2, h3, h4, h5, h6 {
+  @extend .font-common;
+
+  letter-spacing: 0;
+  text-transform: none;
+
+  a {
+    color: $color-black;
+  }
+}
+
+//------------------------------------------------------
+// header
+#header {
+  @extend .area-common;
+
+  padding-bottom: 0;
+}
+
+.site-title {
+  color: $color-black;
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 2.6em;
+    line-height: 1em;
+    margin: 0.3em 0 0.15em;
+  }
+
+  h3 {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0.3em 0 0.15em;
+  }
+}
+
+.site-description {
+  font-family: $font-family-second;
+  font-size: 0.9em;
+  color: $color-silver;
+
+  h6 {
+    //margin-left: 0.2em;
+
+  }
+}
+
+//------------------------------------------------------
+// navigation
+#navigation {
+  padding: 0 15px 0 30px;
+
+  //@extend .underline-box;
+}
+
+.nav-box-common {
+  padding: 10px 15px 10px 15px;
+}
+
+.nav-mainmenu {
+  font-size: 14px;
+  font-family: $font-family-second;
+  margin-bottom: 0;
+  padding: 10px 0 10px 0;
+  float: left;
+
+  ul {
+  }
+
+  li {
+    list-style-type: none;
+    display: block;
+    float: left;
+  }
+
+  a {
+    @extend .nav-box-common;
+
+    color: $color-gray;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    @extend .nav-box-common;
+
+    color: $color-black;
+    background: $color-silver;
+    text-decoration: none;
+  }
+
+  form {
+    @extend .nav-box-common;
+
+    input[type="text"], input[type="password"], textarea, #dsq-content textarea {
+      font-family: "Courier New", Courier, Verdana, sans-serif;
+    }
+  }
+}
+
+//------------------------------------------------------
+// post
+#post {
+  @extend .area-common;
+
+  .post-summary-box {
+    margin-bottom: 22.4px;
+    padding-bottom: 20px;
+
+    @extend .underline-box;
+  }
+
+  .post-summary-content {
+  }
+
+  .post-title {
+    h2, h3 {
+      margin-bottom: 2px;
+    }
+
+    a {
+      color: $color-black;
+    }
+  }
+
+  .post-metabar {
+    font-family: $font-family-second;
+    font-size: 0.8em;
+    color: $color-silver;
+    letter-spacing: 0.15em;
+
+    em {
+      font-style: normal;
+    }
+
+    .stress {
+      color: $color-gray;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: $color-gray;
+    }
+  }
+
+  .post-excerpt, .post-content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.6em;
+  }
+}
+
+//------------------------------------------------------
+#paginate-desc {
+  margin-bottom: 1.5em;
+  padding: 0.5em;
+  background-color: $color-silver;
+  border-left: 4px solid;
+  border-left-color: $color-gray;
+}
+
+#paginate {
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  .prev-entries {
+    float: left;
+  }
+
+  .next-entries {
+    float: right;
+  }
+}
+
+//------------------------------------------------------
+// sidebar
+#sidebar {
+  @extend .area-common;
+}
+
+.widget {
+  margin-bottom: 1em;
+
+  h4 {
+    padding-bottom: 0.5em;
+
+    @extend .underline-box;
+
+    font-family: $font-family-second;
+    font-size: .9em;
+    color: $color-gray;
+
+    @extend .font-common;
+
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 2.1px 2px 2.1px 10px;
+  }
+
+  li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+//------------------------------------------------------
+// footer
+#one-word {
+  margin: 0;
+  padding: 0.5em;
+  color: $color-gray;
+  background-color: $color-gray-light;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+#footer {
+  padding-top: 1em;
+  font-size: 1em;
+  text-align: left;
+  color: $color-gray;
+  background-color: $color-black;
+
+  //for fill full page
+  height: $footer-height;
+
+  h4 {
+    font-family: $font-family-second;
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: $color-white;
+    font-size: 0.9em;
+
+    :hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    padding: 0 5px;
+
+    li {
+      list-style-type: none;
+    }
+  }
+
+  .terms {
+    font-size: 0.6em;
+  }
+}
+
+//------------------------------------------------------
+// error handler
+#error_handler {
+  margin-bottom: 2em;
+  padding: 10em;
+  text-align: center;
+  align-self: center;
+
+  h1 {
+    font-family: $font-family-major;
+    font-size: 7em;
+    color: $color-black;
+  }
+
+  p {
+    margin: 1em;
+    color: $color-gray;
+  }
+}
+
+// import code highlight css define
+@import "highlight";
