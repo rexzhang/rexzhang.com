@@ -3,7 +3,7 @@
 ######################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2014-01-26T22:21:00+08:00
 :modified: 2014-01-26T22:21:00+08:00
 :status: draft

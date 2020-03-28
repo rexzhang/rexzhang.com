@@ -3,10 +3,10 @@ python 2.x 中文编码格式转换
 ######################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2013-04-03T01:12:54+08:00
 :modified: 2013-04-03T01:12:54+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: unicode, Python
 

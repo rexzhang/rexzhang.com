@@ -3,10 +3,10 @@
 ##############################################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2011-07-28T22:55:28+08:00
 :modified: 2011-07-28T22:55:28+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Proxy, Python
 

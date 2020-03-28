@@ -3,10 +3,10 @@ wxWidgets CGI MySQL 混合使用UNICODE心得
 ##################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-01-12T07:19:04+08:00
 :modified: 2009-01-12T07:19:04+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: wxWidgets, CGI, MySQL, unicode
 

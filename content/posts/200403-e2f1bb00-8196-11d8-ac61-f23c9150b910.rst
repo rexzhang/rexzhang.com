@@ -3,10 +3,10 @@
 ####################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2004-03-30T07:36:46+08:00
 :modified: 2004-03-30T07:36:46+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: 域名
 

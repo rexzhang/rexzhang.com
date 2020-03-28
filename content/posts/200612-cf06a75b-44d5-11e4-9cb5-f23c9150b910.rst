@@ -3,10 +3,10 @@ flord.net迁移到新的硬件
 ################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2006-12-28T07:54:08+08:00
 :modified: 2006-12-28T07:54:08+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: Drupal
 

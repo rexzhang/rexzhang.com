@@ -3,10 +3,10 @@
 ############
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2004-12-02T22:20:41+08:00
 :modified: 2004-12-02T22:20:41+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: 网络托管
 

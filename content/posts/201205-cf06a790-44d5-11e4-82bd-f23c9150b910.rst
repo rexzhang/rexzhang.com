@@ -3,10 +3,10 @@
 ######################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2012-05-04T08:27:48+08:00
 :modified: 2012-05-04T08:27:48+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: Hg
 

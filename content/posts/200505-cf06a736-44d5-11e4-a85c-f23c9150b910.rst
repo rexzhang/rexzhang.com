@@ -3,10 +3,10 @@
 ############
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-05-26T06:55:54+08:00
 :modified: 2005-05-26T06:55:54+08:00
-:status: published
+:status: hidden
 :category: 我思我想
 
 

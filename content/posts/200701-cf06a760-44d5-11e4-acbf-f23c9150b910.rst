@@ -3,10 +3,10 @@ Drupal 4.7.3->5.0 Upgrade tips
 ############################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2007-01-25T12:20:44+08:00
 :modified: 2007-01-25T12:20:44+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: Drupal
 

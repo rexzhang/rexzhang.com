@@ -3,10 +3,10 @@ flord.net重新上线,Drupal升级4.6.3->4.7.0
 ####################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2006-05-16T00:12:26+08:00
 :modified: 2006-05-16T00:12:26+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: Drupal
 

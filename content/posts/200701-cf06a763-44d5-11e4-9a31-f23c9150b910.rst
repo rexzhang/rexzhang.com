@@ -3,10 +3,10 @@ Drupal升级到5.1
 ########################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2007-01-30T19:49:13+08:00
 :modified: 2007-01-30T19:49:13+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: Drupal
 

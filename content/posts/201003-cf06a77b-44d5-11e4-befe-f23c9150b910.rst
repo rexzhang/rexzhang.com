@@ -3,10 +3,10 @@ debian调整系统时区
 ########################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2010-03-24T01:50:41+08:00
 :modified: 2010-03-24T01:50:41+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

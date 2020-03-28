@@ -3,10 +3,10 @@ Trac 安装笔记
 ##################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-02-26T23:33:46+08:00
 :modified: 2009-02-26T23:33:46+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: trac
 

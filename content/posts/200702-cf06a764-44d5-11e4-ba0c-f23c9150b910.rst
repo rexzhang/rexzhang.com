@@ -3,10 +3,10 @@ minicom Linux下的超级终端
 ######################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2007-02-08T22:34:27+08:00
 :modified: 2007-02-08T22:34:27+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: 超级终端
 

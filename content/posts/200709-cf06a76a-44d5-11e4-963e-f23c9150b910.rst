@@ -3,10 +3,10 @@ WYMeditor,不错的WYSIWYM模块
 ############################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2007-09-26T00:25:21+08:00
 :modified: 2007-09-26T00:25:21+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: 超级终端
 

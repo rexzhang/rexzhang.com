@@ -3,10 +3,10 @@
 ####################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2011-02-20T07:31:14+08:00
 :modified: 2011-02-20T07:31:14+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: windows, 网卡
 

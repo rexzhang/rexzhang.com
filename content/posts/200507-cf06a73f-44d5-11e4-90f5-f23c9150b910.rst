@@ -3,10 +3,10 @@
 ################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-07-31T21:23:09+08:00
 :modified: 2005-07-31T21:23:09+08:00
-:status: published
+:status: hidden
 :category: 网海拾贝
 
 

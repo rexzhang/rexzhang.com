@@ -3,10 +3,10 @@ Debian 5 新系统安装笔记
 ################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-09-01T01:18:51+08:00
 :modified: 2009-09-01T01:18:51+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

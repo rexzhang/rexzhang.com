@@ -3,10 +3,10 @@ Debian v3.1r0 下架设FTP以及VPN服务
 ######################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-08-04T00:40:26+08:00
 :modified: 2005-08-04T00:40:26+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

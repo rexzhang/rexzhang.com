@@ -3,10 +3,10 @@ iOS 5.1.1 不重装程序、不丢失设置及数据的升级越狱办法
 ##############################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2012-06-08T06:25:27+08:00
 :modified: 2012-06-08T06:25:27+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: iOS, jailbreak
 

@@ -3,10 +3,10 @@ QQ2004IIBeta3,显著的改变
 ######################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2004-12-16T19:36:34+08:00
 :modified: 2004-12-16T19:36:34+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 
 

@@ -3,10 +3,10 @@ ASCII版的Star Wars电影
 ####################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-09-01T06:19:29+08:00
 :modified: 2005-09-01T06:19:29+08:00
-:status: published
+:status: hidden
 :category: 网海拾贝
 
 

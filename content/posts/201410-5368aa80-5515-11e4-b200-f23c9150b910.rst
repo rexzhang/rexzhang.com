@@ -3,10 +3,10 @@ Python map  class/类结构体 相互转换
 ######################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2014-10-17T01:18:01+08:00
 :modified: 2014-10-17T01:18:01+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: Python
 

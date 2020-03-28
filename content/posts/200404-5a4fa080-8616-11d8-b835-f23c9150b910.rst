@@ -3,10 +3,10 @@ IETF RFC 文档中文翻译计划
 ##################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2004-04-05T00:59:17+08:00
 :modified: 2004-04-05T00:59:17+08:00
-:status: published
+:status: hidden
 :category: 网海拾贝
 
 

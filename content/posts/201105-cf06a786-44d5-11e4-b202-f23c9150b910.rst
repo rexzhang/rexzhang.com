@@ -3,10 +3,10 @@
 ##########################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2011-05-04T20:26:48+08:00
 :modified: 2011-05-04T20:26:48+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian, mirror
 

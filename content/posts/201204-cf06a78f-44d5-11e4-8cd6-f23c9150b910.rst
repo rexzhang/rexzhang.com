@@ -3,10 +3,10 @@ Django 使用 Cache 机制提升性能
 ############################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2012-04-21T00:19:51+08:00
 :modified: 2012-04-21T00:19:51+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: Django
 

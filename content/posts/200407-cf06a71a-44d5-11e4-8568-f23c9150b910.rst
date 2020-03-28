@@ -3,10 +3,10 @@
 ########################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2004-07-31T06:33:05+08:00
 :modified: 2004-07-31T06:33:05+08:00
-:status: published
+:status: hidden
 :category: 网海拾贝
 :tags: 游戏
 

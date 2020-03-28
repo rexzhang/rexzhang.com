@@ -3,10 +3,10 @@
 ################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2004-12-23T00:13:16+08:00
 :modified: 2004-12-23T00:13:16+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

@@ -3,10 +3,10 @@ xorg LCD屏幕分辨率问题
 ##############################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2010-03-10T23:09:31+08:00
 :modified: 2010-03-10T23:09:31+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: xorg
 

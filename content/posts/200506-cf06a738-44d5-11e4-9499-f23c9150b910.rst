@@ -3,10 +3,10 @@
 ##########################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-06-23T23:32:24+08:00
 :modified: 2005-06-23T23:32:24+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 
 

@@ -3,10 +3,10 @@ Magic Mail Monitor 3/邮件检查管理
 ######################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2004-04-05T05:01:47+08:00
 :modified: 2004-04-05T05:01:47+08:00
-:status: published
+:status: hidden
 :category: 网海拾贝
 
 

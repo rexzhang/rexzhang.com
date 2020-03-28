@@ -3,10 +3,10 @@ windows7下安装wireshark 1.22 x64版本
 ##############################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-09-17T22:30:49+08:00
 :modified: 2009-09-17T22:30:49+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: 网络协议分析
 

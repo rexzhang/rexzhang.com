@@ -3,7 +3,7 @@ golang 工程 的一种目录结构
 ##################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2014-05-29T04:53:49+08:00
 :modified: 2014-05-29T04:53:49+08:00
 :status: draft

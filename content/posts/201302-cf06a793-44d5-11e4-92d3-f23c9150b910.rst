@@ -3,10 +3,10 @@ Nokia 6500s(S40) 手机使用 Google  Sync 服务同步联系人
 ####################################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2013-02-14T00:19:20+08:00
 :modified: 2013-02-14T00:19:20+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: Google
 

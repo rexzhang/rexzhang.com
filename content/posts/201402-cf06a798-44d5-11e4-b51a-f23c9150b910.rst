@@ -3,10 +3,10 @@ SQLite 环境 Django 1.6  使用老版本代码出现事务异常的临时解决
 ####################################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2014-02-19T23:48:41+08:00
 :modified: 2014-02-19T23:48:41+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: Django, SQLite
 

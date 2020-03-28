@@ -3,10 +3,10 @@ debian stable、unstable、testing混合系统安装方法
 ############################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-11-21T01:12:40+08:00
 :modified: 2009-11-21T01:12:40+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

@@ -3,10 +3,10 @@
 ##################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2014-10-30T02:04:45+08:00
 :modified: 2014-10-30T02:04:45+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: Python
 

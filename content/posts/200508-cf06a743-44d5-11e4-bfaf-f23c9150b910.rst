@@ -3,10 +3,10 @@
 ##############################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-08-08T21:47:58+08:00
 :modified: 2005-08-08T21:47:58+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: Drupal
 

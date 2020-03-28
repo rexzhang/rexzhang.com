@@ -3,10 +3,10 @@
 ##################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2010-03-24T21:50:29+08:00
 :modified: 2010-03-24T21:50:29+08:00
-:status: published
+:status: hidden
 :category: Linux
 
 

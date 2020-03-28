@@ -3,10 +3,10 @@ debian上安装设置socks5 proxy
 ##############################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2010-03-25T06:45:42+08:00
 :modified: 2010-03-25T06:45:42+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian, Proxy, socks
 

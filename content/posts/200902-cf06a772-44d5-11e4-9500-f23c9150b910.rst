@@ -3,10 +3,10 @@ Debian 5 发布
 ######################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-02-26T22:44:30+08:00
 :modified: 2009-02-26T22:44:30+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

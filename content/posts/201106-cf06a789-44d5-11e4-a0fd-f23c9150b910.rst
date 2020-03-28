@@ -3,10 +3,10 @@ Django flup lighttpd 环境下使用 FastCGI 和 WSGI
 ##################################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2011-06-18T00:45:35+08:00
 :modified: 2011-06-18T00:45:35+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: lighttpd, Django
 

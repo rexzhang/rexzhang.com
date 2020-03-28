@@ -3,10 +3,10 @@ Debian下开启snmpd
 ############################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-08-31T22:22:16+08:00
 :modified: 2009-08-31T22:22:16+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian, SNMP
 

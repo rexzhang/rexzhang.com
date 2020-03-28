@@ -3,10 +3,10 @@ windows下的符号链接功能
 ##############################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2011-06-04T05:29:14+08:00
 :modified: 2011-06-04T05:29:14+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: windows
 

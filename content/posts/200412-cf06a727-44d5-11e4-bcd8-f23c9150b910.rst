@@ -3,10 +3,10 @@
 ##############################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2004-12-17T07:18:46+08:00
 :modified: 2004-12-17T07:18:46+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: Google
 

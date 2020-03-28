@@ -3,10 +3,10 @@
 ######################################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2006-01-14T00:29:27+08:00
 :modified: 2006-01-14T00:29:27+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: 域名, Drupal
 

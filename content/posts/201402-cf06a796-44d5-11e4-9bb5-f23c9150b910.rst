@@ -3,10 +3,10 @@ VMware vSphere Hypervisor ESXi 5.5 支持 realtek 网卡
 ################################################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2014-02-20T00:15:59+08:00
 :modified: 2014-02-20T00:15:59+08:00
-:status: published
+:status: hidden
 :category: 运维
 :tags: VMware
 

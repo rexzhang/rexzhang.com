@@ -3,10 +3,10 @@ Windows7下将IDE硬盘接口模式切换到ACHI
 ####################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-10-18T21:47:30+08:00
 :modified: 2009-10-18T21:47:30+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: Win7, ACHI
 

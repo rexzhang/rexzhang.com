@@ -3,10 +3,10 @@ Debian 3.0安装笔记
 ############################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-06-08T23:55:35+08:00
 :modified: 2005-06-08T23:55:35+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

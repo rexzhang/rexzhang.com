@@ -3,10 +3,10 @@ debian 开启 SNMPv3 支持
 ######################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2011-04-21T05:40:31+08:00
 :modified: 2011-04-21T05:40:31+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: SNMP
 

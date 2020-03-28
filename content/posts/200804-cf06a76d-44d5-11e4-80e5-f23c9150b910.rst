@@ -3,10 +3,10 @@ codeblock 8.02发布
 ################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2008-04-23T00:46:10+08:00
 :modified: 2008-04-23T00:46:10+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: IDE
 

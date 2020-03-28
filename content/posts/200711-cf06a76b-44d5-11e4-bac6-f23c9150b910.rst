@@ -3,10 +3,10 @@ wxWidgets资源链接集锦
 ##############################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2007-11-08T22:29:07+08:00
 :modified: 2007-11-08T22:29:07+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: wxWidgets
 

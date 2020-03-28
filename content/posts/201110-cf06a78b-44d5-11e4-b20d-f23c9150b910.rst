@@ -3,10 +3,10 @@
 ############################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2011-10-08T23:47:31+08:00
 :modified: 2011-10-08T23:47:31+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: 虚拟机
 

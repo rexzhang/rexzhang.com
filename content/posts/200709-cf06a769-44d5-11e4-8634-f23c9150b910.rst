@@ -3,10 +3,10 @@ teknobites网站精选40款免费Windows软件
 ########################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2007-09-17T22:59:57+08:00
 :modified: 2007-09-17T22:59:57+08:00
-:status: published
+:status: hidden
 :category: 网海拾贝
 
 

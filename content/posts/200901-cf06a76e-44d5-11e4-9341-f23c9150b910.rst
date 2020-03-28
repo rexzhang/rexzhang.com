@@ -3,10 +3,10 @@
 ##########################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-01-12T04:57:40+08:00
 :modified: 2009-01-12T04:57:40+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: Firefox
 

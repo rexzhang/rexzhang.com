@@ -3,10 +3,10 @@ Debian v3.1r0 下架设DNS服务，并在本地DNS服务器上替换解析部分
 ####################################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-10-19T23:40:14+08:00
 :modified: 2005-10-19T23:40:14+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

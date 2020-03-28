@@ -3,10 +3,10 @@ onlinenic的.name 3级域名开始支持cname功能
 ##############################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2009-01-12T06:57:38+08:00
 :modified: 2009-01-12T06:57:38+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: 域名
 

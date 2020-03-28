@@ -3,10 +3,10 @@
 ######################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2011-03-17T05:26:27+08:00
 :modified: 2011-03-17T05:26:27+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: trac
 

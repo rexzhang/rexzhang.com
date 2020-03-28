@@ -3,10 +3,10 @@
 ############################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2006-12-02T01:18:26+08:00
 :modified: 2006-12-02T01:18:26+08:00
-:status: published
+:status: hidden
 :category: 数字生存
 :tags: Firefox, 书签
 

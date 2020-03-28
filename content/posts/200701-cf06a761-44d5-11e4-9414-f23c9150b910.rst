@@ -3,10 +3,10 @@ Debian开始积极抢夺市场份额
 ################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2007-01-29T21:43:30+08:00
 :modified: 2007-01-29T21:43:30+08:00
-:status: published
+:status: hidden
 :category: Linux
 :tags: Debian
 

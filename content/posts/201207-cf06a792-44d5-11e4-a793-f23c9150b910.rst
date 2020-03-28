@@ -3,10 +3,10 @@
 ######################################################################################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2012-07-19T01:33:40+08:00
 :modified: 2012-07-19T01:33:40+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: Django, Bootstrap
 

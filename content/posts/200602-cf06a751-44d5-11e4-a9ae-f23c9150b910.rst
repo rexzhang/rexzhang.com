@@ -3,10 +3,10 @@ wxODBC(wxWidgets)中使用驱动程序方式打开数据库
 ##############################################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2006-02-02T17:25:58+08:00
 :modified: 2006-02-02T17:25:58+08:00
-:status: published
+:status: hidden
 :category: Coding
 :tags: wxWidgets, ODBC
 

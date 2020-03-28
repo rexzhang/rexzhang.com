@@ -3,10 +3,10 @@
 ################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-05-21T07:48:48+08:00
 :modified: 2005-05-21T07:48:48+08:00
-:status: published
+:status: hidden
 :category: 户外游走
 
 

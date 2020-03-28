@@ -1,28 +1,23 @@
-
-在 python 类范围内使用装饰符
-####################################
-
-
-:author: rex
-:date: 2014-11-17T02:28:27+08:00
-:modified: 2014-11-17T02:28:27+08:00
-:status: published
-:category: Coding
-:tags: Python
+title: 在 python 类范围内使用装饰符 
+author: Rex Zhang
+date: 2014-11-17T02:28:27+08:00
+modified: 2014-11-17T02:28:27+08:00
+status: published
+category: Coding
+tags: Python
 
 
 装饰符函数的传入变量为：使用装饰符的函数（目标函数）。其本质是：在调用目标函数之前，插入调用装饰符函数，然后由装饰符函数调用目标函数。
 
 使用的优势：
 
-<ol>
-    <li>剥离高度重复，同时又需要共享变量（一般是局部变量，如果扩展变量作用域会引发更多麻烦）的代码</li>
-    <li>便于函数扩展行为切换</li>
-    <li>将一些通用行为（代码片段）做成装饰符方便使用和在需求发生变化时随时移除</li>
-</ol>
+ -  剥离高度重复，同时又需要共享变量（一般是局部变量，如果扩展变量作用域会引发更多麻烦）的代码
+ -  便于函数扩展行为切换
+ -  将一些通用行为（代码片段）做成装饰符方便使用和在需求发生变化时随时移除
+
 
 网上装饰符的文章很多，但是在类范围内使用的很少；所以范例代码如下：
-[code:python]
+```python
 class dater(object):
     """"""
     def __init__(self, year=None, month=None, day=None):
@@ -127,4 +122,4 @@ class dater(object):
             'wday': dt.isocalendar()[2],
         }
         return date
-[/code]
+```

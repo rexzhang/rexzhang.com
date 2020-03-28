@@ -3,10 +3,10 @@ Drupal.org回来了
 ##########################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2005-07-16T05:56:50+08:00
 :modified: 2005-07-16T05:56:50+08:00
-:status: published
+:status: hidden
 :category: 我思我想
 :tags: Drupal
 

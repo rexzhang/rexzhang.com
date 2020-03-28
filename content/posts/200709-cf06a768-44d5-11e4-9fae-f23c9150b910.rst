@@ -3,10 +3,10 @@
 ########################################
 
 
-:author: rex
+:author: Rex Zhang
 :date: 2007-09-15T00:01:55+08:00
 :modified: 2007-09-15T00:01:55+08:00
-:status: published
+:status: hidden
 :category: 网海拾贝
 :tags: 网络协议分析
 

@@ -22,7 +22,7 @@ PAGE_SAVE_AS = 'pages/{slug}/index.html'
 TIMEZONE = 'Asia/Shanghai'
 DEFAULT_DATE_FORMAT = '%Y/%m/%d'
 
-DEFAULT_LANG = 'zh'
+DEFAULT_LANG = 'zh-Hans'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -45,3 +45,6 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Themes
+THEME = 'themes/apricot'
