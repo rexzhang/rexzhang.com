@@ -1,0 +1,15 @@
+
+IETF
+########
+
+
+:author: rex
+:date: 2004-04-05T05:38:52+08:00
+:modified: 2004-04-05T05:38:52+08:00
+:status: published
+:category: 网海拾贝
+
+
+The Internet Engineering Task Force 
+
+http://www.ietf.org/

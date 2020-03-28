@@ -1,0 +1,17 @@
+
+FAQs.org
+################
+
+
+:author: rex
+:date: 2004-04-05T05:13:04+08:00
+:modified: 2004-04-05T05:13:04+08:00
+:status: published
+:category: 网海拾贝
+
+
+全球FAQ汇总  
+
+主要是Newsgroup(Usenet)上的 
+
+http://faqs.org

@@ -1,0 +1,53 @@
+
+Debian 5 新系统安装笔记
+################################
+
+
+:author: rex
+:date: 2009-09-01T01:18:51+08:00
+:modified: 2009-09-01T01:18:51+08:00
+:status: published
+:category: Linux
+:tags: Debian
+
+
+<p>硬件环境：</p>
+<p>AMD785G,AMDx3 720,2x2G DDR3-1333,Realtek的千兆网卡</p>
+<p>在官方网站上下载镜像 debian-502a-amd64-DVD-1.iso 。光盘启动后：Installer启动前提示BIOS未开启 IOMMU ，查询后发现是主板不支持（未提供相关的BIOS选项），作罢</p>
+<p>网络设置默认是DHCP自动获取了一个IP地址，可以在获取后使用（BACK）手工修改为自己需要的</p>
+<p>在选择安装包时，取消掉所有的包，包括 standard。这样安装出来是最精简的基系统</p>
+<p>安装常用工具<br />#aptitude install sudo ssh mc</p>
+<p>配置sudo</p>
+<p>用root帐号登录，执行</p>
+<p># visudo</p>
+<p>进入一个像nano一样的文本编辑器修改权限。然后重新用一个允许执行sudo的普通帐号登录，再执行</p>
+<p>#sudo -s</p>
+<p>即可</p>
+<p>配置apt源</p>
+<p>先下载 http://mirrors.163.com/sources.list.lenny <br />添加内容到 /etc/apt/sources.list 。其内容如下<br />deb http://mirrors.163.com/debian lenny main non-free contrib<br />deb http://mirrors.163.com/debian lenny-proposed-updates main contrib non-free<br />deb http://mirrors.163.com/debian-security lenny/updates main contrib non-free <br /><br />deb-src http://mirrors.163.com/debian lenny main non-free contrib<br />deb-src http://mirrors.163.com/debian lenny-proposed-updates main contrib non-free<br />deb-src http://mirrors.163.com/debian-security lenny/updates main contrib non-free</p>
+<p>然后屏蔽掉默认的internet源信息，和cd-rom源信息（在拆走光驱时）</p>
+<p>更新源信息，并升级系统到最新</p>
+<p>#apti update<br />#apti upgrade</p>
+<p>会更新内核镜像，所以完了后</p>
+<p>#reboot</p>
+<p>安装python</p>
+<p>#aptitude install python</p>
+<p>实际安装的是2.5</p>
+<p>安装apache2，mysql和phpmyadmin</p>
+<p>#aptitude install apache2 apache2-mpm-prefork mysql-server php5 phpmyadmin</p>
+<p>其中：apache2-mpm-prefork表示是多进程版本，使用多进程的方式管理内存。据官方说会比较消耗内存。如果需要使用多线程可以安装worker版。完成后访问 http://192.168.100.15 显示 It works! 。表示apache2正常</p>
+<p>配置phpmyadmin</p>
+<p>访问 http://192.168.100.15/phpmyadmin ，检查ok</p>
+<p>安装postgreSQL</p>
+<p>aptitude install postgresql python-psycopg2 phppgadmin</p>
+<p>添加postgreSQL用户</p>
+<p>先在sudo到postgres用户默认是没有密码的</p>
+<p>root@CD-LS5:~# su - "postgres"</p>
+<p>创建一个pg管理用户</p>
+<p>postgres@CD-LS5:~$ createuser -s yourPgUser <br />createuser: creation of new role failed: ERROR:  role "yourPgUser" already exists #如果提示已经存在<br />postgres@CD-LS5:~$ dropuser yourPgUser #删除现有的<br />postgres@CD-LS5:~$ createuser -P -s -e yourPgUser<br />Enter password for new role:<br />Enter it again:<br />CREATE ROLE yourPgUser PASSWORD 'md5xxxxxxxxxxxxxxxxx' SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN; #是超级用户，可以创建数据库和访问规则</p>
+<p>然后修改 phppgadmin的配置文件 /etc/phppgadmin/config.inc.php 关闭对登录安全的限制（允许空密码帐号存在）</p>
+<p>修改 $conf['extra_login_security'] = true;<br /> 变为 $conf['extra_login_security'] = false;</p>
+<p>就可以用yourPgUser在web上登录了。还有apache2的主机设置也要添加可访问ip域规则</p>
+
+update
+20110326:phppgadmin 关闭对登录安全的限制不是必须的

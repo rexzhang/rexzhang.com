@@ -1,0 +1,20 @@
+
+Ethereal
+################
+
+
+:author: rex
+:date: 2004-04-05T05:17:46+08:00
+:modified: 2004-04-05T05:17:46+08:00
+:status: published
+:category: 网海拾贝
+:tags: 网络协议分析
+
+
+一个跨平台的网络协议分析软件.
+
+FREE!!!
+
+支持N多的系统:包括你知道的和不知道的   
+
+http://www.ethereal.com/

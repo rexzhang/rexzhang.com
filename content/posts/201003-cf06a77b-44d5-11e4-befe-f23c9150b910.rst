@@ -1,0 +1,37 @@
+
+debian调整系统时区
+########################
+
+
+:author: rex
+:date: 2010-03-24T01:50:41+08:00
+:modified: 2010-03-24T01:50:41+08:00
+:status: published
+:category: Linux
+:tags: Debian
+
+
+debian调整系统时区
+
+[code:shell]
+#dpkg-reconfigure tzdata
+[/code]
+
+或者
+
+[code:shell]
+#tzselect
+[/code]
+
+查看当前时间和时区
+
+[code:shell]
+#date
+[/code]
+
+使用 NTP 同步时间
+
+[code:shell]
+#ntpdate pool.ntp.org
+[/code]
+

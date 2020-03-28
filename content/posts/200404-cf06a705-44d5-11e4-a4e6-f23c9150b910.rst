@@ -1,0 +1,16 @@
+
+Programmers Notepad
+######################################
+
+
+:author: rex
+:date: 2004-04-05T05:03:13+08:00
+:modified: 2004-04-05T05:03:13+08:00
+:status: published
+:category: 网海拾贝
+
+
+一个Windows下的文本编辑器.虽然没有Uedit强大,不过也够用了. 
+
+
+http://www.pnotepad.org/

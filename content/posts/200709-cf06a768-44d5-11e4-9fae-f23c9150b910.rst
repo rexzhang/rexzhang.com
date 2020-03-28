@@ -1,0 +1,14 @@
+
+生于ethereal的wireshark
+########################################
+
+
+:author: rex
+:date: 2007-09-15T00:01:55+08:00
+:modified: 2007-09-15T00:01:55+08:00
+:status: published
+:category: 网海拾贝
+:tags: 网络协议分析
+
+
+<p>							生于<a href="http://www.ethereal.com/">ethereal</a>的<a href="http://www.wireshark.org/">wireshark</a></p><p>开始支持无线(WLAN)了</p>

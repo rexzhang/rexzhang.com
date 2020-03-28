@@ -1,0 +1,39 @@
+
+Drupal 5 发布，清点非官方模块使用情况
+##############################################
+
+
+:author: rex
+:date: 2007-01-16T07:11:32+08:00
+:modified: 2007-01-16T07:11:32+08:00
+:status: published
+:category: 运维
+:tags: Drupal
+
+
+<p>当前网站使用的非官方模块有：</p><ul><li>
+adminblock</li><li>
+captcha</li><li>
+db_maintenance</li><li>
+dbcron</li><li>
+googleanalytics</li><li>
+gsitemap</li><li>
+robotstxt</li><li>
+service_links</li><li>
+textimage</li><li>
+tinymce </li></ul><p>其中已支持5.0得有：</p><ul><li>
+adminblock</li><li>
+gsitemap</li><li>
+service_links</li><li>
+tinymce<'widgEditor' - A WYSIWYG editor></li></ul><p>
+--Update20070124--</p><p>
+其中已支持5.0得有：</p><ul><li>
+captcha</li><li>
+db_maintenance</li><li>
+googleanalytics </li></ul><p>计划试用的有：</p><ul><li>
+Block Cache</li><li>
+Blog Information</li><li>
+Flickr</li><li>
+flickrhood</li></ul><p>
+--Update20070126--</p><ul><li>
+robotstxt<5.0已经自带了这个文件></li></ul>

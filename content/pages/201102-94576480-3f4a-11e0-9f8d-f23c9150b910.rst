@@ -1,0 +1,35 @@
+
+About
+##########
+
+
+:author: rex
+:date: 2011-02-24T04:43:57+08:00
+:modified: 2011-02-24T04:43:57+08:00
+:status: published
+
+
+<strong>关于这里：</strong>
+
+<blockquote>从记录，到不仅是记录。</blockquote>
+
+<strong>关于我：</strong>
+
+<blockquote>
+年龄不小，心还拽着年轻；
+话语不多，但带着欢与笑；
+钱包不鼓，却想行遍天下。</blockquote>
+
+<strong>我的项目：</strong>
+<ul>
+	<li><a href="http://eve.sgfans.org" target="_blank" title="新伊甸地理">新伊甸地理</a>： 一个EVE游戏的在线查询工具网站 <a href="https://bitbucket.org/rex.zhang/eve-map-online/wiki/Home" target="_blank" title="eveMapOnline@bitbucket.org">EVE Map Online@bitbucket.org</a></li>
+	<li>美国国家地理精选图片下载工具： <a href="http://sourceforge.net/projects/ngpodwc" target="_blank" title="NGPODWC@sourceforge.net">NGPOD Wallpaper Changer@SF.net</a>（已停止开发）</li>
+</ul>
+
+<strong>联系方式：</strong>
+<ul>
+	<li><a href="/guestbook">留言板</a></li>
+	<li>eMail : Rex.Zhang AT Gmail.com</li>
+	<li>Twitter : @idRex</li>
+	<li>Weibo : @Ray1ex</li>
+</ul>

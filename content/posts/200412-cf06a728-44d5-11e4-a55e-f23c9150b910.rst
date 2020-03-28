@@ -1,0 +1,20 @@
+
+启动文件服务器替代计划
+######################
+
+
+:author: rex
+:date: 2004-12-22T00:20:17+08:00
+:modified: 2004-12-22T00:20:17+08:00
+:status: published
+:category: Linux
+
+
+<p>这个计划酝酿很久了.现在终于抽出时间来实施.至于理由...很多...就不说了,进入正题.</p>
+<p>总体目标</p>
+<p>现有系统/应用<br />0.Win2KServer<br />1.基于用户级别的文件共享<br />2.基于用户级别的文件打印<br />3.自动接收传真,并自动打印<br />4.IP地址分发维护</p>
+<p>系统规划<br /><a href="http://www.debian.org/">Debian</a>(woody)</p>
+<p>应用规划<br />1.基于用户级别的文件共享(<a href="http://www.samba.org/">Samba</a> / <a href="http://hk.samba.org/">Samba.Chinese</a>)<br />2.基于用户级别的文件打印(Samba+<!--StartFragment --> <a href="http://www.cups.org/" target="_blank">Common UNIX Printing System</a>)<br />3.自动传真,并自动打印(<a href="http://www.hylafax.org/">HylaFAX</a>)<br />4.IP地址分发维护<br />5.<a href="http://httpd.apache.org/">Apache Web Server</a>,支持<a href="http://www.php.net/">PHP</a>,Perl,<a href="http://www.mysql.com/">MySQL</a><br />5.FTP</p>
+<p>维护规划<br />基于SSH的Telnet<br />基于HTTPs的web管理界面(<a href="http://www.webmin.com/">WebMin</a>)<br />不安装X Window</p>
+<p>安全规划<br />安装防火墙(IPtable)<br />安装杀毒软件</p>
+<p>进程规划<br />1.确立目标,制定规划<br />2.确认将使用软件<br />3.确认硬件兼容性(主板,显卡,Modem,打印机)<br />4.安装基系统(SSH+WebMin)<br />5.升级基本系统至最新版本<br />6.实现文件共享,打印共享,传真接收功能<br />7.根据实际情况调整其他应用的安装以及安全部分的实现<br />8.收尾工作</p>

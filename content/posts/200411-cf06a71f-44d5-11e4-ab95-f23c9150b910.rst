@@ -1,0 +1,13 @@
+
+邮件图标生成器
+##############
+
+
+:author: rex
+:date: 2004-11-21T23:48:52+08:00
+:modified: 2004-11-21T23:48:52+08:00
+:status: published
+:category: 网海拾贝
+
+
+<p>   现在的垃圾邮件可真是无孔不入.我以前有个常用的邮箱已经被每日~40封的垃圾邮件给塞的满满的.再加上服务商的反垃圾邮件措施又实在是太烂.导致我最终不得不慢慢的切换我的对外公开邮箱.为了避免这样的事情再度重演(虽然我对Google的技术是有充足的信心的).决定寻找个折中的方法来显示我的邮件地址.既要让需要的人看到我的邮件地址以便与我联络.同时又要尽可能的屏蔽掉那些自动收集邮件地址的机器人. </p><p>   一度我使用的是 Fname dot Lname at Gmail dot com .这个方案.不过我一直担心他的可靠性.毕竟知道机器人掌握到这个规律,只要搜索固定的后缀标记,然后简单将   at 和 dot 替换成相应的标点符号即可.这个处理对CPU的消耗是如此的小,以至于我不得不担心. </p><p>   还好,现在又有了新的方案,它是图形的!!! 他就是: </p><p>   <a href="http://www.nhacks.com/email/">E-Mail Icon Generator/邮件图标生成器</a> </p><p>   使用方法很简单.找到你的用的邮件地址后缀(如:Gmail.com),然后填上你的邮件地址.点 Generate 即可.他提供: </p><p>   动态生成的图片链接    <!--StartFragment --></p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px;"> <div class="usage">   <div class="usagetitle"><strong>To display this image elsewhere, use the URL:</strong>    </div>   <address>http://www.nhacks.com/email/email.php?mail_e=pN8ORNBTl5zG&iv=CxaWzFg%3D&domain=R01haWw%3D    </address></div></blockquote> <p>   静态链接<!--StartFragment --></p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px;"> <div class="usage">   <div class="usagetitle"><strong>If the site you are posting this image on does not      permit "dynamic images", use the following URL instead:</strong>    </div>   <address>http://www.nhacks.com/email/image/UmV4LlpoYW5n/R01haWw%3D/image.png    </address></div></blockquote> <p>   或者直接下载PNG格式的图片文件 </p><blockquote dir="ltr" style="MARGIN-RIGHT: 0px;"> <p>   <!--StartFragment --> <strong>To save this icon, click here</strong></p></blockquote> <p dir="ltr">   好了大功告成.欢迎大家联络我我的Email是<img src="http://www.flord.net/drupal/files/mail.png" /></p>

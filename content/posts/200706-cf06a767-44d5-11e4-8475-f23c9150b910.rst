@@ -1,0 +1,13 @@
+
+LinkSYS RTP300 firmware升级
+##################################################
+
+
+:author: rex
+:date: 2007-06-19T22:01:08+08:00
+:modified: 2007-06-19T22:01:08+08:00
+:status: published
+:category: 数字生存
+
+
+<p>到手一个LinkSYS的带SIP网关的小路由器RTP300。其软件是1.00.xx（<a href="http://www.vonage.com">Vonage</a>）的软件版本而非3.1.xx的<a href="http://www.linksys.com">公版</a>。找不到设置SIP的页面，更找不到软件升级的地方；也无法使用LinkSYS官方网站上提供的firmware。后在<a href="http://openwrt.org">OpenWrt</a>发现一个<a href="http://wiki.openwrt.org/OpenWrtDocs/Hardware/Linksys/WRTP54G">整理了的firmware清单</a></p><p>根据网上的提示使用<strong>admin/admin</strong>（用户名/密码）登录<em>http://192.168.15.1</em>后。再用<strong>user/tivonpw</strong>登录<em>http://192.168.15.1/update.html</em>失败。</p><p>放狗搜索发现因为用的是1.00.xx系列的firmware，需要在升级firmware需要先解开管理密码。网上有叫<a href="http://www.bargainshare.com/index.php?showtopic=87504&st=0">CYT Device Unlock的解锁工具</a>。我用的是cyt49Beta版（<a href="http://www.dslreports.com/r0/download/1098007%7E6f3e709c3920e98e7ad7277378f5d6a7/cyt46_win32.zip">cyt46_win32.zi</a><a href="http://www.dslreports.com/r0/download/1098007%7E6f3e709c3920e98e7ad7277378f5d6a7/cyt46_win32.zip">p</a>）。</p><ul><li>先连接好RTP300</li><li>将RTP300的IP地址恢复为出厂默认的<strong>192.168.15.1</strong></li><li>PC的IP地址可以设置成自动获取（RTP300默认会分配给你。如果RTP300的DHCP被关掉了的话，可以手动设置成<strong>192.168.15.100</strong><strong>）</strong></li><li>打开IE浏览器，访问<em>http://192.168.15.1</em>；使用<strong>admin/admin</strong>登录</li><li>将cyt解包到硬盘</li><li>双击运行cyt</li><li>会出现一个DOS窗口，并提供了菜单化的界面</li><li>选择（<strong>1</strong>）,程序将会自动开始重置设备密码；并会需要你回车确定修改密码，回车；等待程序提示Configure is complete</li><li>在IE中访问<em>http://192.168.15.1/update.html</em>升级firmware；使用<strong>Admin/Admin</strong>登录（注意是大写的A）</li><li>在IE中访问<em>http://192.168.15.1/Voice_adminPage.html</em>配置语音部分；使用<strong>Admin/Admin</strong>登录（SIP）</li></ul><p>RTP300的用户登录分为几个级别。普通的管理员是<strong>admin/admin</strong>；超级用户是<strong>Admin/Admin</strong>。登录超级用户前需要先用普通管理帐号登录所以当使用超级用户登录报错的时候；先使用普通帐号登录进去，再重新访问特别的隐藏页面。</p>

@@ -1,0 +1,15 @@
+
+NetworkSorcery.com
+####################################
+
+
+:author: rex
+:date: 2004-04-05T05:14:37+08:00
+:modified: 2004-04-05T05:14:37+08:00
+:status: published
+:category: 网海拾贝
+
+
+一个关注网络和安全(networking & security.)相关RFC的网站 
+
+http://www.networksorcery.com

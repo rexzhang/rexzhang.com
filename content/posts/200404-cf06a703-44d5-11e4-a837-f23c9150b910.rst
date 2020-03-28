@@ -1,0 +1,15 @@
+
+GoSURF 多页面浏览器
+##########################
+
+
+:author: rex
+:date: 2004-04-05T05:00:21+08:00
+:modified: 2004-04-05T05:00:21+08:00
+:status: published
+:category: 网海拾贝
+
+
+国人做的一个不错的IE内核多页面浏览器,强烈推荐   
+
+http://www.mmjd.com

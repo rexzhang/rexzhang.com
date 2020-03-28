@@ -1,0 +1,14 @@
+
+WYMeditor,不错的WYSIWYM模块
+############################################
+
+
+:author: rex
+:date: 2007-09-26T00:25:21+08:00
+:modified: 2007-09-26T00:25:21+08:00
+:status: published
+:category: 运维
+:tags: 超级终端
+
+
+<p>一个轻量级的XHTML/Javascript所见即所得的编辑器；用了几天感觉相当不错。</p><p>之前一直觉得<a href="http://drupal.org/project/fckeditor" title="">FCKeditor</a>以及<a href="http://drupal.org/project/tinymce" title="">TinyMCE WYSIWYG Editor</a>都太大太慢了。我只些很少一点点的Blog，实在要不了那么强大的功能。而且这两个编辑器都有个问题就是编辑器内的字体与整个网站系统的字体协调很麻烦。<a href="http://drupal.org/project/wymeditor" title="">WYMeditor</a>很好的解决了这些问题</p><p>干净、清爽而且功能一点都不弱</p>

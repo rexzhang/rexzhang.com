@@ -1,0 +1,13 @@
+
+CAIDA
+##########
+
+
+:author: rex
+:date: 2004-04-05T05:13:08+08:00
+:modified: 2004-04-05T05:13:08+08:00
+:status: published
+:category: 网海拾贝
+
+
+<p><a href="http://www.caida.org" target="_blank">Cooperative Association for Internet Data Analysis</a>  </p><p>想了解全球Internet运行状况么??到这里就对了</p><p>由NSF...等资助  </p>

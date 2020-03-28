@@ -1,0 +1,13 @@
+
+Windows的“远程桌面连接”
+################################
+
+
+:author: rex
+:date: 2004-11-18T23:05:53+08:00
+:modified: 2004-11-18T23:05:53+08:00
+:status: published
+:category: 数字生存
+
+
+<p>   今天一个朋友突然要求我用"远程桌面连接"看看他的电脑.但是我用的系统是Win2K,没有这个东东.正想让他安装我惯用的VNC.不过转念一想...岂不是又要在电话上教他VNC安装,如果这个上再出写问题,岂不是很耽误事.而起我记到有这么一个东东可以让我访问到他的"远程桌面".算了还是还是效率优先的好.我来将就他好了.</p><p>   Windows Server 2003 的“远程桌面连接”</p><p>   可以让几乎所有Windows操作系统(Windows 2000, Windows 2000 Service Pack 2, Windows 2000 Service   Pack 3, Windows 95, Windows 98, Windows 98 Second Edition, Windows ME, Windows NT,   Windows Server 2003, Windows XP, Windows XP Media Center Edition)连接到已启用“远程桌面”或“终端服务器”(Windows   XP Professional 或 Windows Server 2003<应该还包括Windows Server 2000,通过终端服务>)的机器上.</p>

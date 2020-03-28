@@ -1,0 +1,14 @@
+
+终于我还是把Drupal汉化了
+##############################
+
+
+:author: rex
+:date: 2004-11-08T22:40:00+08:00
+:modified: 2004-11-08T22:40:00+08:00
+:status: published
+:category: 运维
+:tags: Drupal
+
+
+<p>   一直以来这个网站都是我一个人在用,觉得似乎没有汉化的必要(之前的汉化,都会使系统明显的变慢)...不知为何最终还是汉化了...也许还是方块字看着顺眼把</p><p>   我用的是<!--StartFragment -->   <span class="submitted"><a href="http://drupal.hiweed.com/user/205" title="查看用户配置信息。">shahe</a></span> 做的<a href="http://drupal.hiweed.com">Hiweed</a> <a href="http://www.shahe.org/Zip/1024.zip">完善版</a>.</p>

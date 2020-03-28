@@ -1,0 +1,23 @@
+
+常用Thunderbird插件和配置
+####################################
+
+
+:author: rex
+:date: 2009-09-22T01:41:52+08:00
+:modified: 2009-09-22T01:41:52+08:00
+:status: published
+:category: 数字生存
+:tags: Firefox
+
+
+<p>更新：</p>
+<p>update notifer</p>
+<p>联系人：</p>
+<p>contacts sidebar, duplicate contact manger, zindus</p>
+<p>事务管理：</p>
+<p>lightning</p>
+<p>安全：</p>
+<p>enigmail</p>
+<p>最小化：</p>
+<p>MinimizeToTray</p>

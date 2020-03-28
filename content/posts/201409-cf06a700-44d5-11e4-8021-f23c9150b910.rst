@@ -1,0 +1,21 @@
+
+mongodb golang mgo  pipe
+################################################
+
+
+:author: rex
+:date: 2014-09-26T09:03:02+08:00
+:modified: 2014-09-26T09:03:02+08:00
+:status: draft
+
+
+db.userCash.aggregate([ { 
+    $group: { 
+        _id: null, 
+        total: { 
+            $sum: '$cash' 
+        } 
+    } 
+} ] )
+
+http://stackoverflow.com/questions/17044587/how-to-aggregate-sum-in-mongodb-to-get-a-total-count

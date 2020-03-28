@@ -1,0 +1,15 @@
+
+新年新气象,换一个Theme,换个感觉
+######################################
+
+
+:author: rex
+:date: 2005-02-22T01:49:50+08:00
+:modified: 2005-02-22T01:49:50+08:00
+:status: published
+:category: 运维
+:tags: Drupal
+
+
+新换的来自:http://drupal.org/project/friendselectric
+现在网站的风格更像是个Blog网站了,呵呵.
