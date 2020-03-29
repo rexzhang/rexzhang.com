@@ -43,12 +43,13 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 # Pagination
 DEFAULT_PAGINATION = True
-PAGINATED_TEMPLATES = {'index': None, 'tag': None, 'category': None, 'author': None}
+PAGINATED_TEMPLATES = {'index': 10, 'tag': None, 'category': None, 'author': None}
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
 # Themes
+SITESUBTITLE = '从记录到不仅仅是记录'
 THEME = 'theme-rexzhang'
 # THEME = 'themes/apricot'  # 字体非常漂亮
 # THEME = 'themes/basic'

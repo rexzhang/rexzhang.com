@@ -1,13 +1,10 @@
-
-mongodb golang mgo  pipe
-################################################
-
+mongodb golang mgo pipe
+#########################
 
 :author: Rex Zhang
 :date: 2014-09-26T09:03:02+08:00
 :modified: 2014-09-26T09:03:02+08:00
 :status: draft
-
 
 db.userCash.aggregate([ { 
     $group: { 

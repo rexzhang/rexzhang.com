@@ -1,7 +1,5 @@
-
 Debian 3.1r0基系统安装
-##################################
-
+#######################
 
 :author: Rex Zhang
 :date: 2005-07-13T07:49:59+08:00
@@ -9,7 +7,6 @@ Debian 3.1r0基系统安装
 :status: hidden
 :category: Linux
 :tags: Debian
-
 
 <p>
    前几天帮一朋友架设一个BBS论坛系统.因为,选用的是<a href="http://www.molyx.com/">Molyx</a> (本来是选Free Discuz,无奈Discuz的转换程序不支持附件的转移).因此环境就确定为Linux+Apache2+PHP4+MySQL+mmCache+Zend 
