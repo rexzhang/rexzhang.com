@@ -5,9 +5,9 @@
       <a rel="author" title="{{ article.author }}" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
     </span>
     <span>on</span>
-    <span class="stress" title="{{ article.date }}">{{ article.date.isoformat() }}</span>
+    <span class="stress" title="{{ article.date }}">{{ article.date|strftime('%Y/%m/%d') }}</span>
     {% if article.modified %}
-    / <span class="stress" title="{{ article.date }}">{{ article.modified.isoformat() }}</span>
+    - <span class="stress" title="{{ article.date }}">{{ article.modified|strftime('%Y/%m/%d') }}</span>
     {% endif %} ·
     {% if article.category %}
     <span class="stress"><a href="{{ SITEURL }}/{{ article.category.url }}"> #{{ article.category }}</a></span>
