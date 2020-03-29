@@ -4,24 +4,30 @@
 {% block title %}{{ SITENAME }} - {{ page.title }}{%endblock%}
 
 {% block head %}
-  {{ super() }}
+{{ super() }}
 
-  {% import 'translations.html' as translations with context %}
-  {% if translations.entry_hreflang(page) %}
-    {{ translations.entry_hreflang(page) }}
-  {% endif %}
+{% import 'translations.html' as translations with context %}
+{% if translations.entry_hreflang(page) %}
+{{ translations.entry_hreflang(page) }}
+{% endif %}
 {% endblock %}
 
 {% block content %}
-    <h1>{{ page.title }}</h1>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
+{% import 'translations.html' as translations with context %}
+{{ translations.translations_for(page) }}
+<div id="post">
+  <div class="post-summary-box">
+    <div class="post-summary-content">
+      <div class="post-title-box">
+        <div class="post-content">
+          {{ page.content }}
+        </div>
+      </div>
+    </div>
+  </div>
 
-    {{ page.content }}
-
-    {% if page.modified %}
-        <p>
-        Last updated: {{ page.locale_modified }}
-        </p>
-    {% endif %}
+  {% if page.modified %}
+  <p>Last updated: {{ page.locale_modified }}</p>
+  {% endif %}
+</div>
 {% endblock %}

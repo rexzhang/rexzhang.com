@@ -41,10 +41,28 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
+# Pagination
+DEFAULT_PAGINATION = True
+PAGINATED_TEMPLATES = {'index': None, 'tag': None, 'category': None, 'author': None}
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
 # Themes
-THEME = 'themes/apricot'
+THEME = 'theme-rexzhang'
+# THEME = 'themes/apricot'  # 字体非常漂亮
+# THEME = 'themes/basic'
+# THEME = 'themes/brutalist'
+# THEME = 'themes/bootstrap'
+# THEME = 'themes/clean-blog'
+# THEME = 'themes/Flex'
+# THEME = 'themes/gum'
+# THEME = 'themes/hyde'
+# THEME = 'themes/iris'
+# THEME = 'themes/jesuislibre'  # 字体样式
+# THEME = 'themes/nest'
+# THEME = 'themes/nikhil-theme' # --
+# THEME = 'themes/pujangga'  # error
+# THEME = 'themes/SoMA2'
+# THEME = 'themes/voce  # 漂亮 不能用
+#

@@ -1,0 +1,19 @@
+<div class="post-metabar">
+  <em>
+    <span>by</span>
+    <span class="stress">
+      <a rel="author" title="{{ article.author }}" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+    </span>
+    <span>on</span>
+    <span class="stress" title="{{ article.date }}">{{ article.date.isoformat() }}</span>
+    {% if article.modified %}
+    / <span class="stress" title="{{ article.date }}">{{ article.modified.isoformat() }}</span>
+    {% endif %} ·
+    {% if article.category %}
+    <span class="stress"><a href="{{ SITEURL }}/{{ article.category.url }}"> #{{ article.category }}</a></span>
+    {% endif %}
+    {% if article.tags %}
+    <span>{% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}"> #{{ tag }}</a>{% endfor %}</span>
+    {% endif %}
+  </em>
+</div>
