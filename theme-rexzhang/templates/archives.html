@@ -3,14 +3,14 @@
 {% block title %}{{ SITENAME }} - Archives{% endblock %}
 
 {% block content %}
-<div id="post">
-  <h1>Archives for {{ SITENAME }}</h1>
+  <div id="post">
+    <h1>Archives </h1>
 
-  <dl>
-    {% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
-    {% endfor %}
-  </dl>
-</div>
+    <dl>
+      {% for article in dates %}
+        <dt>{{ article.locale_date }}</dt>
+        <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+      {% endfor %}
+    </dl>
+  </div>
 {% endblock %}

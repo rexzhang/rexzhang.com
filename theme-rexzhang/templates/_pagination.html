@@ -1,10 +1,10 @@
 {% if DEFAULT_PAGINATION %}
-<div id="paginate">
-  {% if articles_page.has_previous() %}
-  <span class="prev-entries"><a href="{{ SITEURL }}/{{ articles_previous_page.url }}">← Previous Entries</a></span>
-  {% endif %}
-  {% if articles_page.has_next() %}
-  <span class="next-entries"><a href="{{ SITEURL }}/{{ articles_next_page.url }}">Next Entries →</a></span>
-  {% endif %}
-</div>
+  <div id="paginate">
+    {% if articles_page.has_previous() %}
+      <span class="prev-entries"><a href="{{ SITEURL }}/{{ articles_previous_page.url }}">← Previous Entries</a></span>
+    {% endif %}
+    {% if articles_page.has_next() %}
+      <span class="next-entries"><a href="{{ SITEURL }}/{{ articles_next_page.url }}">Next Entries →</a></span>
+    {% endif %}
+  </div>
 {% endif %}
