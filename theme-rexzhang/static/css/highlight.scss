@@ -7,7 +7,7 @@ $base-page-blank-width: 16px;
     font-size: 0.9em;
     overflow: auto;
 
-    @import "../../../static/pygments/pastis";
+    @import "pygments/pastis";
 
     background: #efefef;
 }

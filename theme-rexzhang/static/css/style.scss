@@ -1,5 +1,28 @@
-// import rPress common css define
-@import "../../../static/common";
+//------------------------------------------------------
+// global variables
+$font-family-major: Georgia, "Times New Roman", Times, serif;
+$font-family-second: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+
+$color-white: #FFFFFF;
+$color-silver: #E9E9E9;
+$color-gray-light: #EFEFEF;
+$color-gray: #AFAFAF;
+$color-gray-dark: #5F5F5F;
+$color-black: #000000;
+
+$base-page-blank-width: 1em;
+
+body {
+  font: 1em $font-family-major;
+  margin: 0;
+  border: 0 none;
+  outline: 0 none;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
 //------------------------------------------------------
 // global variables
