@@ -1,4 +1,3 @@
-
 修改 debian locales 设置
 ########################################
 
@@ -6,7 +5,7 @@
 :author: Rex Zhang
 :date: 2011-02-13T04:42:40+08:00
 :modified: 2011-02-13T04:42:40+08:00
-:status: hidden
+:status: published
 :category: Linux
 :tags: Debian, 本地化
 
@@ -15,14 +14,17 @@
 
 
 1.安装 locales 包
-[code:shell]
-aptitude install locales
-[/code]
+
+.. code-block::
+
+    aptitude install locales
 
 2.默认状态下，安装程序并不会改变语言设置，所以需要手动执行这个操作
-[code:shell]
-dpkg-reconfigure locales
-[/code]
+
+.. code-block::
+
+    dpkg-reconfigure locales
+
 建议选择 en_US.UTF-8 ，当然 zh_CN.UTF-8 也是可以的，不过部分命令行软件对中文支持不是很完美，不推荐
 
 3.改变操作是及时生效的，不过因为当前帐号已经登录。要看到效果需要 logout ，然后再 login 即可
