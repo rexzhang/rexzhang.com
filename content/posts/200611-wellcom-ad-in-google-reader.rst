@@ -1,15 +1,12 @@
-
 Google Reader出现商业化迹象
 ########################################
-
 
 :author: Rex Zhang
 :date: 2006-11-29T19:42:32+08:00
 :modified: 2006-11-29T19:42:32+08:00
-:status: hidden
+:status: published
 :category: 数字生存
 :tags: Google
-
 
 一如既往的商业模式，Reader 依然是以基于搜索的广告来获取盈利。
 
