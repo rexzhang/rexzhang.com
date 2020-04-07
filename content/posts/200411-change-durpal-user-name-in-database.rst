@@ -1,4 +1,3 @@
-
 尝试改变用户名 raylex -> rex
 ##########################################
 
@@ -6,7 +5,7 @@
 :author: Rex Zhang
 :date: 2004-11-08T19:29:42+08:00
 :modified: 2004-11-08T19:29:42+08:00
-:status: hidden
+:status: published
 :category: 数字生存
 
 

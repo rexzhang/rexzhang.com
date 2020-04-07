@@ -1,4 +1,3 @@
-
 在 Debian 虚拟机中安装 VMware Tools
 ########################################################
 
@@ -6,7 +5,7 @@
 :author: Rex Zhang
 :date: 2014-02-07T22:34:18+08:00
 :modified: 2014-02-07T22:34:18+08:00
-:status: hidden
+:status: published
 :category: 运维
 :tags: Debian, VMware
 
@@ -18,29 +17,31 @@ VMware 虚拟机在没有安装 VMware Tools 之前是不支持在 vSphere Clien
 1.启动 Debian 虚拟机，在 vSphere Client 中设置挂载光盘镜像文件
 
 2.Debian 中挂载光盘
-[code:shell]
-mount /dev/cdrom /mnt
-[/code]
+
+.. code-block::
+
+    mount /dev/cdrom /mnt
 
 3.将光盘中的 VMwareTools-xxxxxxxxxx.tar.gz 解出到 /root/vmware-tools
 
 4.安装 VMware Tools 需要安装 gcc make 以及 Linux 当前版本内核的头文件
-[code:shell]
-aptitude install gcc make
-aptitude install linux-headers-$(uname -r)
-[/code]
+
+.. code-block::
+
+    aptitude install gcc make
+    aptitude install linux-headers-$(uname -r)
 
 5.执行安装脚本
-[code:shell]
-cd /root/vmware-tools
-./vmware-install.pl
-[/code]
+
+.. code-block::
+
+    cd /root/vmware-tools
+    ./vmware-install.pl
 
 执行安装脚本的时候一路选择默认即可
 
 参考链接
-<ul>
-	<li>http://www.thomas-krenn.com/de/wiki/VMware_Tools_in_Debian_installieren</li>
-	<li>http://www.cyberciti.biz/faq/howto-install-kernel-headers-package/</li>
-	<li>http://blog.mwpreston.net/2011/10/12/installing-vmware-tools-on-debian-6-squeeze/</li>
-</ul>
+
+-  http://www.thomas-krenn.com/de/wiki/VMware_Tools_in_Debian_installieren
+-  http://www.cyberciti.biz/faq/howto-install-kernel-headers-package/
+-  http://blog.mwpreston.net/2011/10/12/installing-vmware-tools-on-debian-6-squeeze/

@@ -1,4 +1,3 @@
-
 站点终于恢复
 ############
 
@@ -6,7 +5,7 @@
 :author: Rex Zhang
 :date: 2004-12-02T22:20:41+08:00
 :modified: 2004-12-02T22:20:41+08:00
-:status: hidden
+:status: published
 :category: 运维
 :tags: 网络托管
 
