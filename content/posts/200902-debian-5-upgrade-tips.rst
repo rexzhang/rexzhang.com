@@ -37,7 +37,7 @@ Debian的发布周期明显缩短。而且这次发布整个系统变化很大�
 
 -  将deb源修改为d5的
 
-.. code-block::
+.. code-block:: text
 
     deb http://mirrors.163.com/debian/ lenny main contrib
     deb-src http://mirrors.163.com/debian/ lenny main contrib
@@ -45,7 +45,7 @@ Debian的发布周期明显缩短。而且这次发布整个系统变化很大�
 
 -  获取新的升级资源信息 apti update。会有关于认证key不存在的告警。问题不大；并非163.com的源出现问题，而是对D5需要的key在D4中不存在。升级后就正常了
 
-.. code-block::
+.. code-block:: text
 
     W: There is no public key available for the following key IDs: 4D270D06F42584E6
     W: You may want to run apt-get update to correct these problems

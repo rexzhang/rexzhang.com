@@ -46,7 +46,7 @@
 
 在模板文件中（我的范例是 menu.html ）使用全局变量 request.path为当前页面设置高亮
 
-.. code-block::
+.. code-block:: xml
 
     {% url eveJumpNavigator:pathLayout as url_pathLayout %}
     {% url eveJumpNavigator:oneJump as url_oneJump %}

@@ -26,7 +26,7 @@ python 2.x 中文编码格式转换
 
 输出为
 
-.. code-block::
+.. code-block:: text
 
     <type 'unicode'> 中文
     <type 'str'> 中文

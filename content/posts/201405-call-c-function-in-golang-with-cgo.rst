@@ -12,13 +12,13 @@ golang 使用 cgo 调用没有链接文件的动态链接库
 
 获得符号表的方法
 
-.. code-block::
+.. code-block:: shell
 
     nm libfoo.so
 
 演示工程目录结构
 
-.. code-block::
+.. code-block:: text
 
     ~/projectRoot
         bin
@@ -33,7 +33,7 @@ golang 使用 cgo 调用没有链接文件的动态链接库
 
 构建脚本 ``build.sh``
 
-.. code-block::
+.. code-block:: shell
 
     #!/bin/bash
     cd ../bin
@@ -45,7 +45,7 @@ golang 使用 cgo 调用没有链接文件的动态链接库
 
 使用cgo 接口做的库访问代码 ``libfoogo.go``
 
-.. code-block::
+.. code-block:: golang
 
     package libfoogo
 
@@ -92,7 +92,7 @@ golang 使用 cgo 调用没有链接文件的动态链接库
 
 测试用工程的代码 ``main.go``
 
-.. code-block::
+.. code-block:: golang
 
     package main
 

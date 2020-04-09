@@ -10,10 +10,9 @@ Debian v3.1r0 下架设Apache2 + PHP4 + MySQL + mmCache + Zend环境
 
 1.安装Apache2以及MySQL,PHP4以Apache2的模块的方式运行
 
-.. code-block::
+.. code-block:: shell
 
-   aptitude install apache2-common apache2-mpm-prefork
-   libapache2-mod-php4 mysql-server php4-mysql php4-gd phpmyadmin
+   aptitude install apache2-common apache2-mpm-prefork libapache2-mod-php4 mysql-server php4-mysql php4-gd phpmyadmin
 
 其中phpadmin是一个基于web界面的MySQL管理工具.另外,在这一版的Debian中,安装PHP等跟Apache相关的程序时都会询问与那个版本的Apache关联(以方便安装程序进行自动配置),只需要选Apache2即可.
 

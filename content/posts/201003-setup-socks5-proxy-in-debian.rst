@@ -24,19 +24,19 @@ debian上有一个很不错的socks5的实现：dante http://www.inet.no/dante/
 
 安装
 
-.. code-block::
+.. code-block:: shell
 
     # aptitude install dante-server
 
 编辑配置文件
 
-.. code-block::
+.. code-block:: shell
 
     # nano /etc/danted.conf
 
 修改内容如下
 
-.. code-block::
+.. code-block:: text
 
     logoutput: /var/log/danted/danted-server.log #将 log 输出到文件，需要手工建立目录 /var/log/danted
 
@@ -97,19 +97,19 @@ debian上有一个很不错的socks5的实现：dante http://www.inet.no/dante/
 
 检查是否已经有 danted 进程
 
-.. code-block::
+.. code-block:: shell
 
     # ps -A | grep dante
 
 如果提示没有运行，可以手工将服务放在到后台运行
 
-.. code-block::
+.. code-block:: shell
 
     # danted -D #启动服务 #可以用来检查配置文件是否正确
 
 如果已经在后台运行，可以重启服务使新设置生效
 
-.. code-block::
+.. code-block:: shell
 
     # /etc/init.d/danted restart
 
@@ -118,13 +118,13 @@ debian上有一个很不错的socks5的实现：dante http://www.inet.no/dante/
 
 安装 socks 客户端软件
 
-.. code-block::
+.. code-block:: shell
 
     # aptitude install dante-client
 
 编辑 socks 客户端配置文件 /etc/dante.conf ；其中 10.10.10.10 为 socks 服务器的 ip 地址
 
-.. code-block::
+.. code-block:: text
 
     logoutput: /var/log/dante.log
     resolveprotocol: udp
@@ -146,19 +146,19 @@ debian上有一个很不错的socks5的实现：dante http://www.inet.no/dante/
 
 命令行下客户端的参数格式
 
-.. code-block::
+.. code-block:: shell
 
     socksify program [ arguments ]
 
 以下载 python.org 下的文件为例；不使用代理时的命令为
 
-.. code-block::
+.. code-block:: shell
 
     wget http://www.python.org/download/xxxxxx.tgz
 
 使用代理的命令为
 
-.. code-block::
+.. code-block:: shell
 
     socksify wget http://www.python.org/download/xxxxxx.tgz
 

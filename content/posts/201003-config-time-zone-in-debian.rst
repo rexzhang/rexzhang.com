@@ -12,24 +12,24 @@ debian调整系统时区
 
 debian调整系统时区
 
-.. code-block::
+.. code-block:: shell
 
     # dpkg-reconfigure tzdata
 
 或者
 
-.. code-block::
+.. code-block:: shell
 
     # tzselect
 
 查看当前时间和时区
 
-.. code-block::
+.. code-block:: shell
 
     # date
 
 使用 NTP 同步时间
 
-.. code-block::
+.. code-block:: shell
 
     # ntpdate pool.ntp.org

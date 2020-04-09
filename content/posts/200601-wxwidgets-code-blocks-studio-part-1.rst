@@ -49,7 +49,7 @@ Code::Blocks Studio现在发布的是RC2(还没有正式版)。但RC2问题多�
 #. 将文件中的\ ``#define wxUSE_ODBC 0``\ 修改为\ ``#define wxUSE_ODBC 1``
 #. 然后我在\ *D:\wxWidgets-2.6.2\build\msw*\ 下创建了一个\ **envset.bat**\ 文件来设置编译需要的环境参数。内容如下
 
-.. code-block::
+.. code-block:: text
 
     set PATH=%PATH%;C:\Program Files\CodeBlocks\bin;C:\Program Files\CodeBlocks\mingw32\bin;set LIBRARY_PATH=C:\Program Files\CodeBlocks\libset C_INCLUDE_PATH=C:\Program Files\CodeBlocks\includeset CPLUS_INCLUDE_PATH=C:\Program Files\CodeBlocks\include;D:\wxWidgets-2.6.2\include;D:\wxWidgets-2.6.2\contrib\include;
 
@@ -66,7 +66,7 @@ Code::Blocks Studio现在发布的是RC2(还没有正式版)。但RC2问题多�
 #. 运行\ envset.net
 #. 执行清理命令
 
-.. code-block::
+.. code-block:: shell
 
     mingw32-make -f makefile.gcc USE_XRC=1 SHARED=1 MONOLITHIC=1 BUILD=debug UNICODE=1 clean
 
@@ -78,7 +78,7 @@ Code::Blocks Studio现在发布的是RC2(还没有正式版)。但RC2问题多�
 
 #. 执行编译命令
 
-.. code-block::
+.. code-block:: shell
 
       mingw32-make -f makefile.gcc USE_XRC=1 SHARED=1 MONOLITHIC=1 BUILD=debug UNICODE=1 VENDOR=cb
 

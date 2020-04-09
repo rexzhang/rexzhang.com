@@ -27,7 +27,7 @@ Google了下找到原因：应该是系统没识别到我的屏幕。解决办�
 
 启动图形界面成功，不过发现依然不能设置更高的分辨率。检查后发现是：生成的 ``xorg.conf`` 文件里面关于显示设备的的设置问题。修改内容如下：
 
-.. code-block::
+.. code-block:: text
 
     Section "Monitor"
         Identifier   "Monitor0"

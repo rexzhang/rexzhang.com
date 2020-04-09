@@ -20,7 +20,7 @@ Hg 的分支相对于 Git 没那么随意，如果要实现偏 Git 风格分支�
 
 命令行方式如下（其中的 release 为将要创建的新分支名称）：
 
-.. code-block::
+.. code-block:: shell
 
     hg branch release
     hg commit
@@ -31,7 +31,7 @@ hg branch release hg commit [/code]
 
 如要将本地新建的分支推送到远端的代码托管服务器上可以使用命令（使用 TortoiseHg Push 时其会自动代劳）：
 
-.. code-block::
+.. code-block:: shell
 
     hg push --new-branch
 
@@ -49,7 +49,7 @@ hg branch release hg commit [/code]
 
 以下是命令行的范例（支持 hg 2.x 版本）
 
-.. code-block::
+.. code-block:: shell
 
     hg update needCloseBranch
     hg commit --close-branch #关闭功能在 TortoiseHg 是没有的，只能在命令行操作
@@ -59,13 +59,13 @@ hg branch release hg commit [/code]
 查看当前分支
 ------------
 
-.. code-block::
+.. code-block:: shell
 
     hg branch
 
 列出所有分支
 ------------
 
-.. code-block::
+.. code-block:: shell
 
     hg branches

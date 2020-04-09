@@ -12,7 +12,7 @@
 
 首先，修改 ``/etc/lighttpd/lighttpd.conf 激活 mod_rewrite`` 模块。格式如下：
 
-.. code-block::
+.. code-block:: text
 
     server.modules = (
             "mod_access",
@@ -24,7 +24,7 @@
 
 然后在 ``/etc/lighttpd/conf-enabled/10-simple-vhost.conf`` 内添修改如下：
 
-.. code-block::
+.. code-block:: text
 
     $HTTP["host"] == "rex.zhang.name" {
         server.document-root = "/www/"
@@ -40,7 +40,7 @@
 
 确保网站根目录下的 .htaccess 文件存在，并且在文件权限上可以被执行 lighttpd 的用户可写。最后在 /wp-admin/options-permalink.php 设计自己喜欢的目录格式即可。成功后的 .htaccess 文件内容如下
 
-.. code-block::
+.. code-block:: text
 
     <IfModule mod_rewrite.c>
     RewriteEngine On
@@ -55,7 +55,7 @@
 
 另外还有一个超级简单的办法；只需要修改 lighttpd 的配置文件 /etc/lighttpd/conf-enabled/10-simple-vhost.conf ，不用开启 rewrite 都可以工作
 
-.. code-block::
+.. code-block:: text
 
     $HTTP["host"] == "rex.zhang.name" {
         ...

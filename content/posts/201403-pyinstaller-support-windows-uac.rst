@@ -27,7 +27,7 @@
 
 首次使用是可以用使用命令行工具自动生成一个配置文件，其中 ``launcher2.py`` 是这个工程的入口程序
 
-.. code-block::
+.. code-block:: shell
 
     pyinstaller --onefile --noconsole launcher2.py
 
@@ -35,7 +35,7 @@
 
 工程目录结构
 
-.. code-block::
+.. code-block:: text
 
     root-+-res-+-p1.png
          |     +-p2.png
@@ -103,13 +103,13 @@
 
 一切配置妥当后可以通过执行如下命令来自动生成可执行程序
 
-.. code-block::
+.. code-block:: shell
 
     pyinstaller --noconfirm launcher2.spec
 
 最后，生成的目标文件在 dist\release 目录；目录结构如下
 
-.. code-block::
+.. code-block:: text
 
     root-+-res-+-p1.png
          |     +-p2.png

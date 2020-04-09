@@ -14,7 +14,7 @@ apt-mirror 是个不错的本地源镜像工具。它可以指定要下载的：
 
 安装
 
-.. code-block::
+.. code-block:: shell
 
     sudo aptitude install apt-mirror
 
@@ -22,13 +22,13 @@ apt-mirror 是个不错的本地源镜像工具。它可以指定要下载的：
 
 安装完成后，会创建一个叫 apt-mirror 的不可登录帐号，以及一个配置文件 ``/etc/apt/mirror.list``
 
-.. code-block::
+.. code-block:: shell
 
     sudo nano /etc/apt/mirror.list
 
 修改内容如下：
 
-.. code-block::
+.. code-block:: text
 
     #镜像文件已经一些同步日志类的过程文件都会分子目录放在 /YourDebianMirrorPath 下面
     set base_path /YourDebianMirrorPath
@@ -56,7 +56,7 @@ apt-mirror 是个不错的本地源镜像工具。它可以指定要下载的：
 
 如果安装程序没有自动生成 apt-mirror 用户的话，可以手工添加
 
-.. code-block::
+.. code-block:: shell
 
     adduser --system apt-mirror
 
@@ -64,7 +64,7 @@ apt-mirror 是个不错的本地源镜像工具。它可以指定要下载的：
 
 下载(老版本40GB容量)在我的 2Mbps 小水管下用了3天2夜。执行方法如下：
 
-.. code-block::
+.. code-block:: shell
 
     sudo su - apt-mirror
     apt-mirror
@@ -77,7 +77,7 @@ apt-mirror 是个不错的本地源镜像工具。它可以指定要下载的：
 
 可以创建一个专门的镜像配置文件 ``/etc/apache2/sites-available/mirror`` 。内容如下：
 
-.. code-block::
+.. code-block:: text
 
     <virtualhost *:80>
             ServerAdmin webmaster@localhost
@@ -138,7 +138,7 @@ apt-mirror 是个不错的本地源镜像工具。它可以指定要下载的：
 
 重启 apache 应该就可以访问 http://mirror.SAMPLE.COM/debian 查看效果, 修改需要使用本地镜像源的 /etc/apt/sources.list 内容，添加内容类似如下
 
-.. code-block::
+.. code-block:: text
 
     deb http://mirror.SAMPLE.com/debian/ stable main contrib non-free
     deb http://mirror.SAMPLE.com/debian/ stable-updates main contrib non-free
@@ -155,14 +155,14 @@ apt-mirror 是个不错的本地源镜像工具。它可以指定要下载的：
 
 如果在 apt update 的时候出现类似如下内容
 
-.. code-block::
+.. code-block:: text
 
     Err http://mirror.rex.zhang.name wheezy-proposed-updates/contrib Translation-en 404  Not Found
     Err http://mirror.rex.zhang.name wheezy-proposed-updates/main Translation-en 404  Not Found
 
 编辑文件 ``/var/spool/apt-mirror/var/postmirror.sh`` 添加如下内容
 
-.. code-block::
+.. code-block:: shell
 
     for part in wheezy wheezy-updates wheezy-proposed-updates wheezy-backports; do
         cd /var/spool/apt-mirror/mirror/ftp.us.debian.org/debian/dists/$part

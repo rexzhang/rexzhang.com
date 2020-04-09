@@ -14,19 +14,19 @@
 
 然后确定是否有 easy_install 。没有的话可以：
 
-.. code-block::
+.. code-block:: shell
 
     aptitude install python-setuptools
 
 安装本地化的模块 Babel。以支持国际化
 
-.. code-block::
+.. code-block:: shell
 
     easy_install babel
 
 安装过程类似如下：
 
-.. code-block::
+.. code-block:: text
 
     Searching for Babel
     Reading http://pypi.python.org/simple/Babel/
@@ -47,25 +47,25 @@
 
 强制升级 trac 到最新的稳定版本
 
-.. code-block::
+.. code-block:: shell
 
     easy_install -U trac
 
 或者升级到指定版本
 
-.. code-block::
+.. code-block:: shell
 
     easy_install --upgrade Trac==0.12
 
 升级项目文件
 
-.. code-block::
+.. code-block:: shell
 
     trac-admin /path/to/projenv upgrade
 
 升级 trac 自带 wiki 的内容
 
-.. code-block::
+.. code-block:: shell
 
     trac-admin /path/to/projenv wiki upgrade
 
@@ -80,7 +80,7 @@
 
 在 trac 系统网页 /admin/general/plugin 选中“EnscriptRenderer — Syntax highlighter using GNU Enscript”。并且按照相应模块即可
 
-.. code-block::
+.. code-block:: shell
 
     aptitude install enscript
 

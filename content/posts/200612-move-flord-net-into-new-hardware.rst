@@ -15,7 +15,7 @@ flord.net迁移到新的硬件
 
 原系统是Ubuntu+Apache2+PHP4+Mysql4.1；新系统打算还是用回Debian。只是要注意的是:Debian默认安装的MySQL为4.0版,其不支持语言设置。所以安装Debian时要特别指定使用MYSQL4.1
 
-.. code-block::
+.. code-block:: shell
 
     aptitude install apache2-common apache2-mpm-prefork libapache2-mod-php4 mysql-server-4.1 php4-mysql php4-gd phpmyadmin
 

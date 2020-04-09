@@ -12,13 +12,13 @@ Debian下开启snmpd
 
 安装
 
-.. code-block::
+.. code-block:: shell
 
     # aptitude install snmpd snmp
 
 修改 ``/etc/default/snmpd``。让snmpd监听所有的网卡（默认只监听回环地址127.0.0.1，这种状况下只能本机访问snmp信息）
 
-.. code-block::
+.. code-block:: text
 
     # snmpd options (use syslog, close stdin/out/err).
     #SNMPDOPTS='-Lsd -Lf /dev/null -u snmp -I -smux -p /var/run/snmpd.pid 127.0.0.1'
@@ -26,7 +26,7 @@ Debian下开启snmpd
 
 修改 ``/etc/snmp/snmpd.conf``。配置snmpd服务。建议参考 http://www.debianhelp.co.uk/snmp.htm
 
-.. code-block::
+.. code-block:: text
 
     ####
     # First, map the community name (COMMUNITY) into a security name
@@ -59,14 +59,14 @@ Debian下开启snmpd
 
 基于安全的角度建议，MyRWGroup保留原状，即不开放写权限
 
-.. code-block::
+.. code-block:: text
 
     #  Make sure mountd is running
     proc mountd
 
 打开磁盘使用情况监控
 
-.. code-block::
+.. code-block:: text
 
     ###############################################################################
     # disk checks
@@ -85,7 +85,7 @@ Debian下开启snmpd
 
 打开CPU负载均衡监控
 
-.. code-block::
+.. code-block:: text
 
     ###############################################################################
     # load average checks
@@ -101,18 +101,18 @@ Debian下开启snmpd
 
 重启snmpd服务
 
-.. code-block::
+.. code-block:: shell
 
     # /etc/init.d/snmpd restart
 
 本机检查
 
-.. code-block::
+.. code-block:: shell
 
     # snmpwalk localhost -c public -v1
 
 远端检查
 
-.. code-block::
+.. code-block:: shell
 
     # snmpwalk 192.168.100.15 -c public -v1

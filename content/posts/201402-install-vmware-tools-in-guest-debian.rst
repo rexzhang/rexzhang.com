@@ -18,7 +18,7 @@ VMware 虚拟机在没有安装 VMware Tools 之前是不支持在 vSphere Clien
 
 2.Debian 中挂载光盘
 
-.. code-block::
+.. code-block:: shell
 
     mount /dev/cdrom /mnt
 
@@ -26,14 +26,14 @@ VMware 虚拟机在没有安装 VMware Tools 之前是不支持在 vSphere Clien
 
 4.安装 VMware Tools 需要安装 gcc make 以及 Linux 当前版本内核的头文件
 
-.. code-block::
+.. code-block:: shell
 
     aptitude install gcc make
     aptitude install linux-headers-$(uname -r)
 
 5.执行安装脚本
 
-.. code-block::
+.. code-block:: shell
 
     cd /root/vmware-tools
     ./vmware-install.pl

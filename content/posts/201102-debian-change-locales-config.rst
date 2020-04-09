@@ -15,13 +15,13 @@
 
 1.安装 locales 包
 
-.. code-block::
+.. code-block:: shell
 
     aptitude install locales
 
 2.默认状态下，安装程序并不会改变语言设置，所以需要手动执行这个操作
 
-.. code-block::
+.. code-block:: shell
 
     dpkg-reconfigure locales
 

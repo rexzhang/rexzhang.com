@@ -14,7 +14,7 @@ SQLite对事务机制的支持是不完整的，Django 1.6 开始对事物的支
 
 手上正好有个项目是很久以前的，部分开发调整环境还行想继续使用 SQLite ；一旦遇到有事务处理的代码就提示
 
-.. code-block::
+.. code-block:: text
 
     Your database backend doesn't behave properly when
     autocommit is off. Turn it on before using 'atomic'.

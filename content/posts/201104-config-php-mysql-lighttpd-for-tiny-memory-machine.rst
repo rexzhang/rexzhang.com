@@ -12,7 +12,7 @@
 
 lighttpd 修改 /etc/lighttpd/conf-enabled/15-fastcgi-php.conf
 
-.. code-block::
+.. code-block:: text
 
     fastcgi.server += ( ".php" =>
             ((
@@ -32,7 +32,7 @@ lighttpd 修改 /etc/lighttpd/conf-enabled/15-fastcgi-php.conf
 
 这里有一个 lighttpd 进程数量的计算公式。很适合在小内存环境用来控制 php 进程的数量，进而控制内存使用情况，以避免因大量的 swap 动作拖慢整个系统的性能。不过这样设置的代价是不能接受大量的并发请求，只适合小流量的个人网站
 
-.. code-block::
+.. code-block:: text
 
     num-procs = max-procs * ( 1 + PHP_FCGI_CHILDREN )
 
@@ -44,7 +44,7 @@ num-procs 为最大允许的 php 进程数量。以 lighttpd 官方说明的每�
 
 mysql 修改 /etc/mysql/my.cnf
 
-.. code-block::
+.. code-block:: text
 
     thread_cache_size       = 4 #减少mysqld 的进程数量
     skip-innodb #关闭对 innodb的支持

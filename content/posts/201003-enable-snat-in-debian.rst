@@ -21,26 +21,26 @@ linux都在内核集成了iptables，可以用其实现NAT转换
 
 1.执行
 
-.. code-block::
+.. code-block:: shell
 
     sysctl -w net.ipv4.ip_forward=1
 
 2.或者执行
 
-.. code-block::
+.. code-block:: shell
 
     echo 1 > /proc/sys/net/ipv4/ip_forward
 
 3.或者修改 /etc/sysctl.conf 添加
 
-.. code-block::
+.. code-block:: text
 
     # Enable packet forwarding
     net.ipv4.ip_forward = 1
 
 然后执行
 
-.. code-block::
+.. code-block:: shell
 
     /etc/init.d/networking restart
 
@@ -48,7 +48,7 @@ linux都在内核集成了iptables，可以用其实现NAT转换
 
 执行
 
-.. code-block::
+.. code-block:: shell
 
     iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to-source your.public.ip.adderss
 
@@ -58,7 +58,7 @@ linux都在内核集成了iptables，可以用其实现NAT转换
 
 完成后可以执行
 
-.. code-block::
+.. code-block:: shell
 
     iptables -L -t nat
 
@@ -66,7 +66,7 @@ linux都在内核集成了iptables，可以用其实现NAT转换
 
 另外一个开启snat的方法
 
-.. code-block::
+.. code-block:: shell
 
     Now you need to activate NAT itself in /etc/network/interfaces
     auto eth0

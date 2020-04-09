@@ -24,7 +24,7 @@ AMD785G,AMDx3 720,2x2G DDR3-1333,Realtek的千兆网卡
 安装常用工具
 ------------
 
-.. code-block::
+.. code-block:: shell
 
     # aptitude install sudo ssh mc
 
@@ -38,7 +38,7 @@ AMD785G,AMDx3 720,2x2G DDR3-1333,Realtek的千兆网卡
 
 先下载 ``http://mirrors.163.com/sources.list.lenny``, 添加内容到 /etc/apt/sources.list 。其内容如下
 
-.. code-block::
+.. code-block:: text
 
     deb http://mirrors.163.com/debian lenny main non-free contrib
     deb http://mirrors.163.com/debian lenny-proposed-updates main contrib non-free
@@ -51,21 +51,21 @@ AMD785G,AMDx3 720,2x2G DDR3-1333,Realtek的千兆网卡
 
 更新源信息，并升级系统到最新
 
-.. code-block::
+.. code-block:: shell
 
-    # apti update
-    # apti upgrade
+    # aptitude update
+    # aptitude upgrade
 
 会更新内核镜像，所以完了后
 
-.. code-block::
+.. code-block:: shell
 
     # reboot
 
 安装python
 -----------
 
-.. code-block::
+.. code-block:: shell
 
     # aptitude install python
 
@@ -74,7 +74,7 @@ AMD785G,AMDx3 720,2x2G DDR3-1333,Realtek的千兆网卡
 安装apache2，mysql和phpmyadmin
 -------------------------------
 
-.. code-block::
+.. code-block:: shell
 
     # aptitude install apache2 apache2-mpm-prefork mysql-server php5 phpmyadmin
 
@@ -88,7 +88,7 @@ AMD785G,AMDx3 720,2x2G DDR3-1333,Realtek的千兆网卡
 安装postgreSQL
 --------------
 
-.. code-block::
+.. code-block:: shell
 
     aptitude install postgresql python-psycopg2 phppgadmin
 
@@ -97,13 +97,13 @@ AMD785G,AMDx3 720,2x2G DDR3-1333,Realtek的千兆网卡
 
 先在 ``sudo`` 到 ``postgres`` 用户默认是没有密码的
 
-.. code-block::
+.. code-block:: shell
 
     root@CD-LS5:~# su - "postgres"
 
 创建一个pg管理用户
 
-.. code-block::
+.. code-block:: shell
 
     postgres@CD-LS5:~$ createuser -s yourPgUser
     createuser: creation of new role failed: ERROR:  role "yourPgUser"  already exists #如果提示已经存在
@@ -115,7 +115,7 @@ AMD785G,AMDx3 720,2x2G DDR3-1333,Realtek的千兆网卡
 
 然后修改 phppgadmin的配置文件 ``/etc/phppgadmin/config.inc.php``, 关闭对登录安全的限制（允许空密码帐号存在）
 
-.. code-block::
+.. code-block:: text
 
     修改 $conf['extra_login_security'] = true;
     变为 $conf['extra_login_security'] = false;

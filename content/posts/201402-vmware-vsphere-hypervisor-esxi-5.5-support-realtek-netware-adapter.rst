@@ -18,13 +18,13 @@ ESXi 5.1 以及以前是内置支持 realtek 网卡的，不知为何到了 5.5 
 
 3.解除安全限制
 
-.. code-block::
+.. code-block:: shell
 
     PS C:\>Set-ExecutionPolicy -Scope CurrentUser Unrestricted
 
 4.创建 PowerShell 脚本 bulid-customized-iso.ps1
 
-.. code-block::
+.. code-block:: text
 
     # Add VMware Online depot
     Add-EsxSoftwareDepot https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
@@ -43,7 +43,7 @@ ESXi 5.1 以及以前是内置支持 realtek 网卡的，不知为何到了 5.5 
 
 5.继续在 vSphere PowerCLI 中执行脚本
 
-.. code-block::
+.. code-block:: shell
 
     PS C:\>./bulid-customized-iso.ps1
 
