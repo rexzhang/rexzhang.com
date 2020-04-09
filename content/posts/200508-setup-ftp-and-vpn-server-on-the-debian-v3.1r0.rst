@@ -152,6 +152,6 @@ VPN选用的PPTP包
 
 以Win2K为例,新建一个网络连接,选VPN.创建后需要修改的是:
 
-网络部分,VPN服务器类型选"PPTP".安全措施部分,数据加密选"不允许加密",而允许的协议只选CHAP\ |PPTPWin2K客户端配置|
+网络部分,VPN服务器类型选"PPTP".安全措施部分,数据加密选"不允许加密",而允许的协议只选CHAP\ |PPTP Win2K客户端配置|
 
 .. |PPTP Win2K客户端配置| image:: /files/cap2.jpg
