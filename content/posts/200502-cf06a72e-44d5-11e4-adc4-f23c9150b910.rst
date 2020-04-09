@@ -6,7 +6,7 @@
 :author: Rex Zhang
 :date: 2005-02-19T05:20:06+08:00
 :modified: 2005-02-19T05:20:06+08:00
-:status: hidden
+:status: draft
 :category: 户外游走
 
 

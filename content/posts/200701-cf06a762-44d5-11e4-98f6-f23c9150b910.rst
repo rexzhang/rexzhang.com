@@ -6,7 +6,7 @@ Text Image 5.0-1.0让人晕倒的权限需求
 :author: Rex Zhang
 :date: 2007-01-30T18:37:08+08:00
 :modified: 2007-01-30T18:37:08+08:00
-:status: hidden
+:status: draft
 :category: 运维
 :tags: Drupal
 

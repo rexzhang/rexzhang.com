@@ -9,7 +9,7 @@
 :Revision: 1.0
 :Date: 2010/3/27
 :category: 无类可归
-:status: hidden
+:status: draft
 :Copyright: This document has been placed in the public domain.
 
 .. Note::

@@ -4,7 +4,7 @@ Debian 3.1r0基系统安装
 :author: Rex Zhang
 :date: 2005-07-13T07:49:59+08:00
 :modified: 2005-07-13T07:49:59+08:00
-:status: hidden
+:status: draft
 :category: Linux
 :tags: Debian
 

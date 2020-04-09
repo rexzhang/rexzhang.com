@@ -6,7 +6,7 @@
 :author: Rex Zhang
 :date: 2005-07-12T05:18:36+08:00
 :modified: 2005-07-12T05:18:36+08:00
-:status: hidden
+:status: draft
 :category: 运维
 :tags: Drupal
 

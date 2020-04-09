@@ -6,7 +6,7 @@ ITU 国际电信联盟
 :author: Rex Zhang
 :date: 2004-04-05T05:36:42+08:00
 :modified: 2004-04-05T05:36:42+08:00
-:status: hidden
+:status: draft
 :category: 网海拾贝
 
 

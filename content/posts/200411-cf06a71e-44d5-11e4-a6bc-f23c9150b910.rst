@@ -6,7 +6,7 @@ Windows的“远程桌面连接”
 :author: Rex Zhang
 :date: 2004-11-18T23:05:53+08:00
 :modified: 2004-11-18T23:05:53+08:00
-:status: hidden
+:status: draft
 :category: 数字生存
 
 
