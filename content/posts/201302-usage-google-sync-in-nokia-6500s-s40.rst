@@ -48,7 +48,7 @@ Nokia 6500s(S40) 手机使用 Google  Sync 服务同步联系人
 -  在 设置->通讯录->设置 里面还能同时设置是否显示在 Google 设置的头像照片
 
 参考链接：
----------
+----------
 
 -  http://machsiu.wordpress.com/2010/03/23/%E8%AF%BA%E8%AE%B0s40%E6%89%8B%E6%9C%BA%E9%80%9A%E8%BF%87google-sync%E5%AE%9E%E7%8E%B0%E8%81%94%E7%B3%BB%E4%BA%BA%E5%90%8C%E6%AD%A5
 -  http://bbs.uc.cn/thread-903675-1-1.html
