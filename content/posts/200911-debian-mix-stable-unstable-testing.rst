@@ -23,26 +23,26 @@ python版本如果使用Ice的Interface（接口）传递unicode对象会导致�
 
 首先，在 ``/etc/apt/apt.conf`` 文件（正常情况没有这个文件，需要创建）中添加如下内容：
 
-.. code-block::
+.. code-block:: text
 
     APT::Default-Release "stable";
 
 然后编辑 ``/etc/apt/sources.list`` 文件，添加如下内容：
 
-.. code-block::
+.. code-block:: text
 
     deb http://mirrors.163.com/debian squeeze main non-free contrib
     deb-src http://mirrors.163.com/debian squeeze main non-free contrib
 
 更新软件包列表
 
-.. code-block::
+.. code-block:: shell
 
     # aptitude update
 
 安装 squeeze版本的 python-zeroc-ice
 
-.. code-block::
+.. code-block:: shell
 
     # aptitude install -t squeeze python-zeroc-ice
 

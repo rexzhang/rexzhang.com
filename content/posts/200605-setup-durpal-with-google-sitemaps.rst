@@ -20,7 +20,7 @@
 第一步、先配置robotstxt模块,其默认的配置如下
 --------------------------------------------
 
-.. code-block::
+.. code-block:: text
 
     User-agent: *  Disallow: /node/  Disallow: /database/  Disallow: /includes/  Disallow: /misc/  Disallow: /modules/  Disallow: /sites/  Disallow: /themes/  Disallow: /admin/
 

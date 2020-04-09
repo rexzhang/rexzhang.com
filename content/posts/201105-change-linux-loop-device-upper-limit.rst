@@ -12,7 +12,7 @@
 
 今天在创建和加载 Xen 虚拟机时遇到一个错误
 
-.. code-block::
+.. code-block:: text
 
     Error: Device 51714 (vbd) could not be connected. Failed to find an unused loop device
 
@@ -22,7 +22,7 @@
 
 修改 /etc/modules 文件
 
-.. code-block::
+.. code-block:: text
 
     loop max_loop=64
 
@@ -30,7 +30,7 @@
 
 一些参考命令：
 
-.. code-block::
+.. code-block::  shell
 
     losetup -a #显示所有当前使用中的 loop 设备信息
     ls /dev/loop* #列出所有 loop 设备

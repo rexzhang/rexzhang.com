@@ -12,7 +12,7 @@ Debian v3.1r0 下架设DNS服务，并在本地DNS服务器上替换解析部分
 
 1.安装BIND8
 
-.. code-block::
+.. code-block:: shell
 
    LS1:~# aptitude install bind
 
@@ -20,7 +20,7 @@ Debian v3.1r0 下架设DNS服务，并在本地DNS服务器上替换解析部分
 
 2.安装Web-min的bind8支持模块(因为是我第一次用BIND,有个图形界面的比较容易上手,呵呵)
 
-.. code-block::
+.. code-block:: shell
 
    LS1:~# aptitude install webmin-bind
 

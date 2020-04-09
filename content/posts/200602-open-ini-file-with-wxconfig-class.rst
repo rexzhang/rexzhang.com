@@ -12,14 +12,14 @@ wxWidgets提供一个存取配置信息的完整类。可以将配置存放到�
 
 生成的.INI文件格式如下：
 
-.. code-block::
+.. code-block:: text
 
     PodBasePath=D:\\Tools\\
     nodpodPodYear=2005[/text]
 
 代码如下：
 
-.. code-block::
+.. code-block:: cpp
 
     struct ngpodwcConfig
     {

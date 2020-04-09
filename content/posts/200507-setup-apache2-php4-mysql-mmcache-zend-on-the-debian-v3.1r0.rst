@@ -57,7 +57,7 @@ Debian v3.1r0 下架设Apache2 + PHP4 + MySQL + mmCache + Zend环境
 
 添加如下信息
 
-.. code-block::
+.. code-block:: text
 
     ####mmCache###########################
     extension="mmcache.so"
@@ -72,7 +72,7 @@ Debian v3.1r0 下架设Apache2 + PHP4 + MySQL + mmCache + Zend环境
 
 创建mmCache的保存缓存文件的目录
 
-.. code-block::
+.. code-block:: shell
 
     LS1:~# mkdir /tmp/mmcache
     LS1:~# chmod 0777 /tmp/mmcache
@@ -83,14 +83,14 @@ Debian v3.1r0 下架设Apache2 + PHP4 + MySQL + mmCache + Zend环境
 
 下载
 
-.. code-block::
+.. code-block:: shell
 
     LS1:~# cd /tmp
     LS1:~# wget http://downloads.zend.com/optimizer/2.5.7/ZendOptimizer-2.5.7-linux-glibc21-i386.tar.gz
 
 安装
 
-.. code-block::
+.. code-block:: shell
 
     LS1:~# tar -zxvf  ZendOptimizer-2.5.7-linux-glibc21-i386.tar.gz
     LS1:~# cd ZendOptimizer-2.5.7-linux-glibc21-i386
@@ -112,7 +112,7 @@ Debian v3.1r0 下架设Apache2 + PHP4 + MySQL + mmCache + Zend环境
 
 内容如下
 
-.. code-block::
+.. code-block:: php
 
     <?php phpinfo()?>
 

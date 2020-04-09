@@ -35,7 +35,7 @@ Django 的缓存机制支持多种缓存介质和缓存范围的组合。以 v1.
 
 在数据库内创建缓存专用表，其中 ``cache_eve_map_online`` 是自定义的表名
 
-.. code-block::
+.. code-block:: shell
 
     python eveMapOnline/manage.py createcachetable cache_eve_map_online --settings=eveMapOnline.settingsSgfansOrg
 
@@ -43,7 +43,7 @@ Django 的缓存机制支持多种缓存介质和缓存范围的组合。以 v1.
 
 修改 ``settings.py`` 文件，添加 ``CACHE`` 配置
 
-.. code-block::
+.. code-block:: python
 
     CACHES = {
         'default': {
@@ -56,7 +56,7 @@ Django 的缓存机制支持多种缓存介质和缓存范围的组合。以 v1.
 
 修改 ``settings.py`` 的中间件设置部分
 
-.. code-block::
+.. code-block:: python
 
     MIDDLEWARE_CLASSES = (
         'django.middleware.cache.UpdateCacheMiddleware', #必须在中间件清单的第一条

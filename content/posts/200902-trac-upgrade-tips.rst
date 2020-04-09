@@ -14,20 +14,20 @@ Trac 安装笔记
 
 先装支持和依赖库
 
-.. code-block::
+.. code-block:: shell
 
     aptitude install python-pysqlite2 python-subversion python-support libapache2-mod-python
     aptitude install python-dev python-tz
 
 安装 easy_install 。easy_install 是 py 的安装工具，安装时会自动到互联网上寻找最新的稳定版并下载安装之（太适合我这种懒人了！）
 
-.. code-block::
+.. code-block:: shell
 
     aptitude install python-pip
 
 安装 Trac 需要是依赖包（python库）
 
-.. code-block::
+.. code-block:: shell
 
     root@pip install pytz #国际时区支持
     root@pip install babel==0.9.6 #国际化支持
@@ -36,7 +36,7 @@ Trac 安装笔记
 
 如果直接安装最近版本的 babel (v1.2)包,会得如下错误
 
-.. code-block::
+.. code-block:: text
 
     AttributeError: NullTranslationsBabel instance has no attribute 'isactive'
 
@@ -44,13 +44,13 @@ Trac 安装笔记
 
 安装Trac
 
-.. code-block::
+.. code-block:: shell
 
     pip install Trac
 
 初始化一个新的Trac项目
 
-.. code-block::
+.. code-block:: shell
 
     mkdir /yourTracProjPath
     trac-admin /yourTracProjPath initenv
@@ -61,13 +61,13 @@ Trac 安装笔记
 
 创建一个svn项目（如果你还没有的话）
 
-.. code-block::
+.. code-block:: shell
 
     svnadmin create /yourSvnPath
 
 添加一个虚拟主机
 
-.. code-block::
+.. code-block:: text
 
     <virtualhost *:80>
         DocumentRoot /yourTracProjPath
@@ -89,26 +89,26 @@ Trac 安装笔记
 
 修改Trac配置
 
-.. code-block::
+.. code-block:: shell
 
     cd /yourTracProjPath/conf
     nano tarc.ini
 
 让apache能访问你的trac项目目录（很重要，权限不正确就完全不能工作）
 
-.. code-block::
+.. code-block:: shell
 
     chown -R www-data:www-data /yourTracProjPath
 
 重启apache即可
 
-.. code-block::
+.. code-block:: shell
 
     /etc/init.d/apache2 restart
 
 设置 Trac 管理帐号
 
-.. code-block::
+.. code-block:: shell
 
     trac-admin /yourTracProjPath permission add YourAddUserName TRAC_ADMIN
 

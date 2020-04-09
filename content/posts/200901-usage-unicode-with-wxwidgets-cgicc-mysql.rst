@@ -19,7 +19,7 @@ wxWidgets CGI MySQL 混合使用UNICODE心得
 
 my.ini已经有了
 
-.. code-block::
+.. code-block:: text
 
     [mysql]
     default-character-set=utf8

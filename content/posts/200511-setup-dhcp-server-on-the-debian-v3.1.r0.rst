@@ -12,7 +12,7 @@ Debian中的DHCP服务器软件是ISC的dhcpd。有V2和V3两个版本可选。�
 
 1。先安装服务和Webmin模块
 
-.. code-block::
+.. code-block:: shell
 
     LS2:~# aptitude install dhcp3-server webmin-dhcpd
 

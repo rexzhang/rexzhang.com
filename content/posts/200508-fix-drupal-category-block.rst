@@ -10,7 +10,7 @@
 
 搞定"文章分类"区块,感谢\ `GNUlife <http://www.gnulife.cn/>`__\ 的帮助.代码如下:
 
-.. code-block::
+.. code-block:: php
 
     if (user_access('access content')) {
         $result = db_query("SELECT d.tid, d.name, MAX(n.created) AS updated,COUNT(*) AS count FROM {term_data} d INNER JOIN {term_node} USING (tid) INNER JOIN {node} n USING (nid) WHERE n.status = 1 GROUP BY d.tid,d.name ORDER BY updated DESC, d.name");

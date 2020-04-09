@@ -16,7 +16,7 @@ FTP Server
 
 1.安装wu-ftpd
 
-.. code-block::
+.. code-block:: shell
 
    LS1:~# aptitude install wu-ftpd
 
@@ -24,7 +24,7 @@ FTP Server
 
 2.做一些权限设置(网上抄的我也不是完全理解...汗)
 
-.. code-block::
+.. code-block:: shell
 
     LS1:~# chmod 555 /home/ftp
     LS1:~# chmod 111 /home/ftp/bin/\*
@@ -35,19 +35,19 @@ FTP Server
 
 配置文件直接套用了/usr/share/doc/wu-ftpd/examples/下的ftpaccess.heavy
 
-.. code-block::
+.. code-block:: shell
 
    LS1:~# cp /usr/share/doc/wu-ftpd/examples/ftpaccess.heavy /etc/wu-ftpd/ftpaccess
 
 后稍作修改
 
-.. code-block::
+.. code-block:: shell
 
    LS1:~# nano ftpaccess
 
 添加如下信息
 
-.. code-block::
+.. code-block:: text
 
    guest-root ~
    restricted-uid ftpusername
@@ -57,7 +57,7 @@ FTP Server
 
 4.重启wu-ftpd
 
-.. code-block::
+.. code-block:: shell
 
    LS1:~# /etc/init.d/wu-ftpd restart
 
@@ -72,20 +72,20 @@ VPN选用的PPTP包
 
 1.安装PPTP服务
 
-.. code-block::
+.. code-block:: shell
 
     LS1:~# apt-get install pptpd
     LS1:~# apt-get install webmin-pptp-server //可选
 
 2.配置PPTP
 
-.. code-block::
+.. code-block:: shell
 
    ~# nano /etc/pptpd.conf
 
 一般使用默认即可,需要修改的就是分配IP地址部分
 
-.. code-block::
+.. code-block:: text
 
     #本地(PPTP隧道服务器端)的IP地址.
     localip 192.168.100.50
@@ -94,11 +94,11 @@ VPN选用的PPTP包
 
 3.配置PPTP服务参数
 
-.. code-block::
+.. code-block:: shell
 
     LS1:~# nano /etc/ppp/pptpd-options
 
-.. code-block::
+.. code-block:: text
 
     # Name of the local system for authentication purposes
     # (must match the second field in /etc/ppp/chap-secrets entries)
@@ -131,11 +131,11 @@ VPN选用的PPTP包
 
 4.添加PPTP客户帐号
 
-.. code-block::
+.. code-block:: shell
 
     LS1:~# nano /etc/ppp/chap-secrets
 
-.. code-block::
+.. code-block:: text
 
     # Secrets for authentication using CHAP
     # client server secret IP addresses
@@ -144,7 +144,7 @@ VPN选用的PPTP包
 
 5.重启pptpd服务
 
-.. code-block::
+.. code-block:: shell
 
    LS1:~# /etc/init.d/pptpd restart
 
