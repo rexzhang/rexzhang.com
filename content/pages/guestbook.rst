@@ -7,3 +7,5 @@ GuestBook
 :status: published
 
 欢迎在下面的“评论”处留言
+
+暂时不可能用
