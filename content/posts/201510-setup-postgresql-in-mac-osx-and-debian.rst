@@ -5,6 +5,8 @@ Mac/Debian 环境配置 PostgreSQL/PostGIS/GeoDjango
 :date: 2015-10-23T08:49:54+08:00
 :modified: 2015-10-23T08:49:54+08:00
 :status: published
+:category: 运维
+:tags: PostgreSQL
 
 PostgreSQL Debian 安装
 -----------------------
