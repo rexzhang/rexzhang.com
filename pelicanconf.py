@@ -11,6 +11,12 @@ DEFAULT_CATEGORY = '无类可归'
 PATH = 'content'
 DELETE_OUTPUT_DIRECTORY = True
 
+STATIC_PATHS = [
+    'images',
+
+    'key',
+]
+
 # URL settings
 RELATIVE_URLS = True
 ARTICLE_URL = 'posts/{date:%Y}{date:%m}/{slug}'
@@ -32,18 +38,24 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Python.org', 'http://python.org/'),
+    ('Jinja2', 'http://jinja.pocoo.org/'),
+    ('You can modify those links in your config file', '#'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('You can add links in your config file', '#'),
+    ('Another social link', '#'),
+)
 
 # Pagination
 DEFAULT_PAGINATION = True
-PAGINATED_TEMPLATES = {'index': 10, 'tag': None, 'category': None, 'author': None}
+PAGINATED_TEMPLATES = {
+    'index': 10, 'tag': None, 'category': None, 'author': None
+}
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
