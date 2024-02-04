@@ -1,82 +1,68 @@
 <!DOCTYPE html>
-<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
-<head>
-  {% block head %}
-    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+<html lang="{% block html_lang %}
+    {{ DEFAULT_LANG }}
+  {% endblock %}">
+  <head>
+    {% block head %}
+      <title>
+        {% block title %}
+          {{ SITENAME }}
+        {% endblock %}
+      </title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <!-- link rel="shortcut icon" href="static/rpress-icon.png" -->
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+      <!-- Icons -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+      <!-- rPress -->
+      <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
+      <!-- RSS/Atom -->
+      {% if FEED_ATOM %}
+        <link href="/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+      {% endif %}
+      {% if CATEGORY_FEED_ATOM and categories %}
+        {% for category, _ in categories %}
+          <link href="/{{ CATEGORY_FEED_ATOM.format(slug = category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed for Category: {{ category.name }}" />
+        {% endfor %}
+      {% endif %}
+    {% endblock %}
+  </head>
 
-    <!-- link rel="shortcut icon" href="static/rpress-icon.png" -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Icons-->
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.14.0/css/all.css" rel="stylesheet">
-    <!-- rPress -->
-    <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+  <body>
+    <div class="fill-fullpage-wrapper">
+      <div id="header" class="container padding0">
+        {% include '_header.html' %}
+      </div>
+      <div id="navigation" class="container padding0">
+        {% include '_navigation.html' %}
+      </div>
+      <div id="carousel" class="container padding0">
+        {% block carousel %}
+          {% include '_carousel_home.html' %}
+        {% endblock %}
+      </div>
+      <div id="content" class="container padding0">
+        {% block content %}
+
+        {% endblock %}
+      </div>
+    </div>
+
+    {% include '_footer.html' %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJSBKX9EGM"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-VJSBKX9EGM');
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'G-VJSBKX9EGM')
     </script>
-
-    {% if FEED_ALL_ATOM %}
-      <link href="{{ FEED_DOMAIN }}/
-          {% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed"/>
-    {% endif %}
-    {% if FEED_ALL_RSS %}
-      <link href="{{ FEED_DOMAIN }}/
-          {% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed"/>
-    {% endif %}
-    {% if FEED_ATOM %}
-      <link href="{{ FEED_DOMAIN }}/
-          {% if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed"/>
-    {% endif %}
-    {% if FEED_RSS %}
-      <link href="{{ FEED_DOMAIN }}/
-          {% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed"/>
-    {% endif %}
-    {% if CATEGORY_FEED_ATOM and category %}
-      <link href="{{ FEED_DOMAIN }}/
-          {% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed"/>
-    {% endif %}
-    {% if CATEGORY_FEED_RSS and category %}
-      <link href="{{ FEED_DOMAIN }}/
-          {% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed"/>
-    {% endif %}
-    {% if TAG_FEED_ATOM and tag %}
-      <link href="{{ FEED_DOMAIN }}/
-          {% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed"/>
-    {% endif %}
-    {% if TAG_FEED_RSS and tag %}
-      <link href="{{ FEED_DOMAIN }}/
-          {% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed"/>
-    {% endif %}
-  {% endblock head %}
-</head>
-
-<body>
-<div class="fill-fullpage-wrapper">
-  <div id="header" class="container padding0">
-    {% include '_header.html' %}
-  </div>
-  <div id="navigation" class="container padding0">
-    {% include '_navigation.html' %}
-  </div>
-  <div id="carousel" class="container padding0">
-    {% block carousel %}{% include '_carousel_home.html' %}{% endblock %}</div>
-  <div id="content" class="container padding0">
-    {% block content %}{% endblock %}
-  </div>
-</div>
-
-{% include '_footer.html' %}
-<!-- jQuery first, then Bootstrap JS. -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>

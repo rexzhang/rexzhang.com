@@ -1,68 +1,66 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- #
 
+# - https://docs.getpelican.com/en/latest/settings.html
 
 # Basic settings
-AUTHOR = 'Rex Zhang'
-SITENAME = 'RexZhang.com'
-SITEURL = 'https://rexzhang.com'
-DEFAULT_CATEGORY = '无类可归'
+AUTHOR = "Rex Zhang"
+SITENAME = "RexZhang.com"
+SITEURL = "http://127.0.0.1:8000"
+DEFAULT_CATEGORY = "无类可归"
 
-PATH = 'content'
+PATH = "content"
 DELETE_OUTPUT_DIRECTORY = True
-
 STATIC_PATHS = [
-    'images',
-
-    'key',
+    "images",
+    "key",
 ]
+TYPOGRIFY = True
 
 # URL settings
 RELATIVE_URLS = True
-ARTICLE_URL = 'posts/{date:%Y}{date:%m}/{slug}'
-ARTICLE_SAVE_AS = 'posts/{date:%Y}{date:%m}/{slug}/index.html'
-PAGE_URL = 'pages/{slug}/'
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
+ARTICLE_URL = "posts/{date:%Y}{date:%m}/{slug}"
+ARTICLE_SAVE_AS = "posts/{date:%Y}{date:%m}/{slug}/index.html"
+PAGE_URL = "pages/{slug}/"
+PAGE_SAVE_AS = "pages/{slug}/index.html"
 
 # Time and Date
-TIMEZONE = 'Asia/Shanghai'
-DEFAULT_DATE_FORMAT = '%Y/%m/%d'
+TIMEZONE = "Asia/Shanghai"
+DEFAULT_DATE_FORMAT = "%Y/%m/%d"
 
-DEFAULT_LANG = 'zh-Hans'
+DEFAULT_LANG = "zh-Hans"
 
-# Feed generation is usually not desired when developing
+# Feed settings
+FEED_ATOM = "feeds/atom.xml"
 FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+CATEGORY_FEED_ATOM = "feeds/category/{slug}.atom.xml"
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+FEED_MAX_ITEMS = 10
 
 # Blogroll
 LINKS = (
-    ('Pelican', 'http://getpelican.com/'),
-    ('Python.org', 'http://python.org/'),
-    ('Jinja2', 'http://jinja.pocoo.org/'),
-    ('You can modify those links in your config file', '#'),
+    ("Pelican", "http://getpelican.com/"),
+    ("Python.org", "http://python.org/"),
+    ("Jinja2", "http://jinja.pocoo.org/"),
+    ("You can modify those links in your config file", "#"),
 )
 
 # Social widget
 SOCIAL = (
-    ('You can add links in your config file', '#'),
-    ('Another social link', '#'),
+    ("You can add links in your config file", "#"),
+    ("Another social link", "#"),
 )
 
 # Pagination
 DEFAULT_PAGINATION = True
-PAGINATED_TEMPLATES = {
-    'index': 10, 'tag': None, 'category': None, 'author': None
-}
+PAGINATED_TEMPLATES = {"index": 10, "tag": None, "category": None, "author": None}
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
 # Themes
-SITESUBTITLE = '从记录到不仅仅是记录'
-THEME = 'theme-rexzhang'
+SITESUBTITLE = "从记录到不仅仅是记录"
+THEME = "theme-rexzhang"
 # THEME = 'themes/apricot'  # 字体非常漂亮
 # THEME = 'themes/basic'
 # THEME = 'themes/brutalist'

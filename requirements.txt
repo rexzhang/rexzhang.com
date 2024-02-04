@@ -1,4 +1,2 @@
-pelican
-markdown
-
-invoke
+pelican[markdown]
+typogrify

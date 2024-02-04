@@ -6,7 +6,9 @@
         <h4>Pages</h4>
         <ul>
           {% for page in pages %}
-            <li><a href="/{{ page.url }}">{{ page.title }}</a></li>
+            <li>
+              <a href="/{{ page.url }}">{{ page.title }}</a>
+            </li>
           {% endfor %}
         </ul>
       </div>
@@ -15,7 +17,9 @@
         <h4>Categories</h4>
         <ul>
           {% for category in categories %}
-            <li><a href="/{{ category.url }}">{{ category.title }}</a></li>
+            <li>
+              <a href="/{{ category.url }}">{{ category.title }}</a>
+            </li>
           {% endfor %}
         </ul>
       </div>
@@ -23,17 +27,22 @@
       <div class="col-sm-3">
         <h4>More</h4>
         <ul>
-          <li><a href="/archives.html">Archives</a></li>
-          <li><a href="/categories.html">Categories</a></li>
-          <li><a href="/tags.html">Tags</a></li>
+          <li>
+            <a href="/archives.html">Archives</a>
+          </li>
+          <li>
+            <a href="/categories.html">Categories</a>
+          </li>
+          <li>
+            <a href="/tags.html">Tags</a>
+          </li>
         </ul>
       </div>
 
       <div class="col-sm-3" align="right">
-        <h3 class="site-title"><a href="https://rexzhang.com"> RexZhang.com </a></h3><br>
+        <h3 class="site-title"><a href="https://rexzhang.com">RexZhang.com</a></h3><br />
         <div class="terms">
-          power by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>,
-          <a href="https://pelican-publisher.rexzhang.com" target="_blank"> Publisher</a>.
+          power by <a href="https://rexzhang.com/pelican-publisher" target="_blank">Pelican Publisher</a>.
         </div>
       </div>
     </div>
