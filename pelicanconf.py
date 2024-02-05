@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-
+# Pelican 网站基础设置
 # - https://docs.getpelican.com/en/latest/settings.html
 
 # Basic settings
@@ -27,8 +26,6 @@ PAGE_SAVE_AS = "pages/{slug}/index.html"
 TIMEZONE = "Asia/Shanghai"
 DEFAULT_DATE_FORMAT = "%Y/%m/%d"
 
-DEFAULT_LANG = "zh-Hans"
-
 # Feed settings
 FEED_ATOM = "feeds/atom.xml"
 FEED_ALL_ATOM = None
@@ -37,29 +34,19 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 FEED_MAX_ITEMS = 10
 
-# Blogroll
-LINKS = (
-    ("Pelican", "http://getpelican.com/"),
-    ("Python.org", "http://python.org/"),
-    ("Jinja2", "http://jinja.pocoo.org/"),
-    ("You can modify those links in your config file", "#"),
-)
-
-# Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
-
 # Pagination
 DEFAULT_PAGINATION = True
-PAGINATED_TEMPLATES = {"index": 10, "tag": None, "category": None, "author": None}
+PAGINATED_TEMPLATES = {"index": 10, "tag": 10, "category": 10, "author": None}
+
+# Translations
+DEFAULT_LANG = "zh-Hans"
+TRANSLATION_FEED_ATOM = None
+
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
 # Themes
-SITESUBTITLE = "从记录到不仅仅是记录"
 THEME = "theme-rexzhang"
 # THEME = 'themes/apricot'  # 字体非常漂亮
 # THEME = 'themes/basic'
@@ -76,4 +63,7 @@ THEME = "theme-rexzhang"
 # THEME = 'themes/pujangga'  # error
 # THEME = 'themes/SoMA2'
 # THEME = 'themes/voce  # 漂亮 不能用
-#
+
+SITESUBTITLE = "从记录到不仅仅是记录"
+DISQUS_SITENAME = None
+GITHUB_URL = "https://github.com/rexzhang/rexzhang.com"

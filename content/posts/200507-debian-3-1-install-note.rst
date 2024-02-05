@@ -43,10 +43,10 @@ Debian 3.1r0基系统安装
    为 
 </p>
 <p>
-   iface eth0 inet static<br />
-       address 192.168.100.11<br />
-       netmask 255.255.255.0<br />
-       gateway 192.168.100.2 
+   iface eth0 inet static
+       address 192.168.100.11
+       netmask 255.255.255.0
+       gateway 192.168.100.2
 </p>
 <p>
    这样基系统就基本完成了,剩下的就是修改sources list了.不过,在服务器上一个字母一个字母的录入不是我的风格.现在回到自己的位置上去,用PuTTY登陆Server. 

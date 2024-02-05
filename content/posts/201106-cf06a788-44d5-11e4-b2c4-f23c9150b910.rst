@@ -12,7 +12,7 @@ windows下的符号链接功能
 
 首先，需要以管理员身份运行 CMD。
 然后，使用 mklink 命令。
-[code:shell]
+[code:shell]    
 MKLINK [[/D] | [/H] | [/J]] Link Target
 [/code]
 

@@ -1,21 +1,24 @@
-#!/usr/bin/env python
-
-# This file is only used if you use `make publish` or
-# explicitly specify it as your config file.
-
+# Pelican 网站正式发布设置
 import os
 import sys
 
 sys.path.append(os.curdir)
 from pelicanconf import *  # noqa F403
 
-# If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = "https://rexzhang.com"
 RELATIVE_URLS = False
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
 
-# DISQUS_SITENAME = ""
-# GOOGLE_ANALYTICS = ""
+ANALYTICS = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VJSBKX9EGM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VJSBKX9EGM');
+</script>
+"""
