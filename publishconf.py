@@ -10,7 +10,6 @@ RELATIVE_URLS = False
 
 DELETE_OUTPUT_DIRECTORY = True
 
-
 ANALYTICS = """
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJSBKX9EGM"></script>

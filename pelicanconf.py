@@ -67,3 +67,16 @@ THEME = "theme-rexzhang"
 SITESUBTITLE = "从记录到不仅仅是记录"
 DISQUS_SITENAME = None
 GITHUB_URL = "https://github.com/rexzhang/rexzhang.com"
+
+# TODO: remove it!
+ANALYTICS = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VJSBKX9EGM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VJSBKX9EGM');
+</script>
+"""
