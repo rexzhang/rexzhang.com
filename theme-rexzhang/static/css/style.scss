@@ -344,5 +344,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-// import code highlight css define
-@import "highlight";
+// pygments css
+@import "pygments/default.css";
+
+.highlight {
+  // border: 1px solid #c6c6c6;
+  padding: 1em 0.5em 1em 0.6em;
+}

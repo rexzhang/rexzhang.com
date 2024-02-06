@@ -4,7 +4,7 @@
 # Basic settings
 USE_FOLDER_AS_CATEGORY = False
 DEFAULT_CATEGORY = "无类可归"
-# DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = True
 PATH = "content"
 SITENAME = "RexZhang.com"
 SITEURL = "http://127.0.0.1:8000"
@@ -13,6 +13,7 @@ STATIC_PATHS = [
     "key",
 ]
 TYPOGRIFY = True
+# PYGMENTS_RST_OPTIONS = []
 
 # URL settings
 RELATIVE_URLS = True
@@ -50,6 +51,7 @@ TRANSLATION_FEED_ATOM = None
 
 # Themes
 THEME = "theme-rexzhang"
+# THEME = "notmyidea"  # 自带的
 # THEME = 'themes/apricot'  # 字体非常漂亮
 # THEME = 'themes/basic'
 # THEME = 'themes/brutalist'
