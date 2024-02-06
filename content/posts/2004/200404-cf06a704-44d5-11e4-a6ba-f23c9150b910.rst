@@ -1,0 +1,21 @@
+
+Magic Mail Monitor 3/邮件检查管理
+######################################################
+
+
+:author: Rex Zhang
+:date: 2004-04-05T05:01:47+08:00
+:modified: 2004-04-05T05:01:47+08:00
+:status: published
+:category: 网海拾贝
+
+
+优秀的邮件检查管理,从此不在为等一个Email而始终开着Outlook等重量级的邮件处理程序了  
+
+现在它又有了新的维护人,稳定性空前提高.推荐!!!
+
+http://mmm3.sourceforge.net/
+
+
+语言扩展包下载在这里 
+http://sourceforge.net/tracker/index.php?func=detail&aid=891609&group_id=69252&atid=531581
