@@ -7,11 +7,29 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.font-common, .widget h4, h1, h2, h3, h4, h5, h6 {
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.font-common, .widget h4, h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
@@ -21,12 +39,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1.75em 1em 1.75em 1em;
 }
 
-.underline-box, .widget h4, #post .post-summary-box {
+.underline-box, .widget h4, #post .post-title {
   border-bottom: 1px solid;
-  border-bottom-color: #E9E9E9;
+  border-bottom-color: #e9e9e9;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -36,11 +55,21 @@ html, body {
   margin: 0 auto-10em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   letter-spacing: 0;
   text-transform: none;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: #000000;
 }
 
@@ -68,7 +97,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .site-description {
   font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 0.9em;
-  color: #E9E9E9;
+  color: #e9e9e9;
 }
 #navigation {
   padding: 0 15px 0 25px;
@@ -91,23 +120,33 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   float: left;
 }
 .nav-mainmenu a {
-  color: #AFAFAF;
+  color: #afafaf;
   text-transform: uppercase;
 }
 .nav-mainmenu a:hover {
   color: #000000;
-  background: #E9E9E9;
+  background: #e9e9e9;
   text-decoration: none;
 }
-.nav-mainmenu form input[type=text], .nav-mainmenu form input[type=password], .nav-mainmenu form textarea, .nav-mainmenu form #dsq-content textarea {
+.nav-mainmenu form input[type=text],
+.nav-mainmenu form input[type=password],
+.nav-mainmenu form textarea,
+.nav-mainmenu form #dsq-content textarea {
   font-family: "Courier New", Courier, Verdana, sans-serif;
 }
 
-#post .post-summary-box {
-  margin-bottom: 22.4px;
-  padding-bottom: 20px;
+#post {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-#post .post-title h2, #post .post-title h3 {
+#post .post-box, #post .post-box-excerpt {
+  margin-bottom: 1.5em;
+}
+#post .post-box-excerpt {
+  padding-bottom: 1em;
+}
+#post .post-title h2,
+#post .post-title h3 {
   margin-bottom: 2px;
 }
 #post .post-title a {
@@ -116,35 +155,41 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 #post .post-metabar {
   font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 0.8em;
-  color: #E9E9E9;
+  color: #e9e9e9;
   letter-spacing: 0.15em;
 }
 #post .post-metabar em {
   font-style: normal;
 }
 #post .post-metabar .stress {
-  color: #AFAFAF;
+  color: #afafaf;
   text-transform: uppercase;
 }
 #post .post-metabar a {
-  color: #AFAFAF;
+  color: #afafaf;
 }
-#post .post-excerpt, #post .post-content {
+#post .post-excerpt,
+#post .post-content {
   margin-top: 1em;
   margin-bottom: 1em;
   line-height: 1.6em;
+}
+#post .continue-reading-link {
+  margin-top: 1em;
 }
 
 #paginate-desc {
   margin-bottom: 1.5em;
   padding: 0.5em;
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
   border-left: 4px solid;
-  border-left-color: #AFAFAF;
+  border-left-color: #afafaf;
 }
 
 #paginate {
-  padding-top: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-top: 0;
   padding-bottom: 1em;
 }
 #paginate .prev-entries {
@@ -161,7 +206,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   padding-bottom: 0.5em;
   font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 0.9em;
-  color: #AFAFAF;
+  color: #afafaf;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: left;
@@ -178,8 +223,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 #one-word {
   margin: 0;
   padding: 0.5em;
-  color: #AFAFAF;
-  background-color: #EFEFEF;
+  color: #afafaf;
+  background-color: #efefef;
   text-align: center;
   line-height: 1.8em;
 }
@@ -188,7 +233,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   padding-top: 1em;
   font-size: 1em;
   text-align: left;
-  color: #AFAFAF;
+  color: #afafaf;
   background-color: #000000;
   height: 10em;
 }
@@ -198,10 +243,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-transform: uppercase;
 }
 #footer a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 0.9em;
+  text-decoration: none;
 }
-#footer a :hover {
+#footer a:hover {
   text-decoration: underline;
 }
 #footer ul {
@@ -227,11 +273,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 #error_handler p {
   margin: 1em;
-  color: #AFAFAF;
+  color: #afafaf;
 }
 
 .highlight {
-  padding: 1em 0.5em 1em 0.6em;
+  padding: 1em 0.5em 1px 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
