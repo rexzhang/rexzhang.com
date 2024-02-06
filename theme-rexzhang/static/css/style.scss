@@ -57,7 +57,7 @@ a:hover {
 
 //------------------------------------------------------
 //fill full page
-$footer-height: 10em;
+$footer-height: 15em;
 
 html,
 body {
@@ -149,9 +149,6 @@ h6 {
   padding: 10px 0 10px 0;
   float: left;
 
-  ul {
-  }
-
   li {
     list-style-type: none;
     display: block;
@@ -194,11 +191,12 @@ h6 {
 
   .post-box {
     margin-bottom: 1.5em;
-    // padding-bottom: 1.5em;
+    padding-bottom: 1.5em;
   }
 
   .post-box-excerpt {
     @extend .post-box;
+    margin-bottom: 1em;
     padding-bottom: 1em;
   }
 
@@ -243,8 +241,6 @@ h6 {
 
   .continue-reading-link {
     margin-top: 1em;
-    // float: right;
-    // margin-bottom: 0em;
   }
 }
 
@@ -338,10 +334,7 @@ h6 {
   a {
     color: $color-white;
     font-size: 0.9em;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
+    line-height: 1.8em;
   }
 
   ul {
