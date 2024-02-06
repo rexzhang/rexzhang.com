@@ -5,7 +5,7 @@ golang 使用 cgo 调用没有链接文件的动态链接库
 :author: Rex Zhang
 :date: 2014-05-08T00:41:31+08:00
 :modified: 2014-05-08T00:41:31+08:00
-:status: draft
+:status: published
 :category: Coding
 :tags: Go
 

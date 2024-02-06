@@ -6,8 +6,8 @@
 :author: Rex Zhang
 :date: 2014-01-26T22:21:00+08:00
 :modified: 2014-01-26T22:21:00+08:00
-:status: draft
-
+:status: published
+:category: 运维
 
 网站 DDoS 防御 安全宝 （价格高了）  360 免费，对支付宝付费回调有丢失问题
 

@@ -6,9 +6,15 @@
 :author: Rex Zhang
 :date: 2009-02-02T06:20:40+08:00
 :modified: 2009-02-02T06:20:40+08:00
-:status: draft
+:status: published
 :category: 运维
 :tags: Drupal
 
 
-今天打算找找之前一直在用的NicEdit模块有没有新的版本。无意见发现<a href="http://drupal.org/project/wysiwyg" target="" title="">Wysiwyg API</a>这个模块。好东西啊。<br /><ul><li>支持外部的所见即所得编辑器（jWYSIWYG 0.5, markItUp 1.1.5, NicEdit 0.9.0, TinyMCE 3, Whizzywig 55）</li><li>对不同的过滤器使用指定的不同的编辑器</li></ul>唯一需要注意的是：<br />安装后需要对每个在使用的过滤器分别设置。不然编辑框内看不到任何编辑用的功能按钮<br />
+今天打算找找之前一直在用的NicEdit模块有没有新的版本。无意见发现[Wysiwyg API](http://drupal.org/project/wysiwyg)这个模块。好东西啊。  
+
+*   支持外部的所见即所得编辑器（jWYSIWYG 0.5, markItUp 1.1.5, NicEdit 0.9.0, TinyMCE 3, Whizzywig 55）
+*   对不同的过滤器使用指定的不同的编辑器
+
+唯一需要注意的是：  
+安装后需要对每个在使用的过滤器分别设置。不然编辑框内看不到任何编辑用的功能按钮

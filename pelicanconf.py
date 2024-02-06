@@ -2,15 +2,14 @@
 # - https://docs.getpelican.com/en/latest/settings.html
 
 # Basic settings
-AUTHOR = "Rex Zhang"
+USE_FOLDER_AS_CATEGORY = False
+DEFAULT_CATEGORY = "无类可归"
+# DELETE_OUTPUT_DIRECTORY = True
+PATH = "content"
 SITENAME = "RexZhang.com"
 SITEURL = "http://127.0.0.1:8000"
-DEFAULT_CATEGORY = "无类可归"
-
-PATH = "content"
-DELETE_OUTPUT_DIRECTORY = True
 STATIC_PATHS = [
-    "images",
+    # "images",
     "key",
 ]
 TYPOGRIFY = True
@@ -25,6 +24,9 @@ PAGE_SAVE_AS = "pages/{slug}/index.html"
 # Time and Date
 TIMEZONE = "Asia/Shanghai"
 DEFAULT_DATE_FORMAT = "%Y/%m/%d"
+
+# Metadata
+AUTHOR = "Rex Zhang"
 
 # Feed settings
 FEED_ATOM = "feeds/atom.xml"

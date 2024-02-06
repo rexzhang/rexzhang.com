@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% block head %}{{ super() }}{% include '_feeds_index.html' %}{% endblock %}
 {% block carousel %}{% include '_carousel_index.html' %}{% endblock %}
 {% block content %}
 <div id="post">
@@ -10,13 +11,13 @@
       <div class="post-title-box">
         <div class="post-title">
           <h3>
-            <a rel="bookmark" title="{{ article.title }}" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+            <a rel="bookmark" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
           </h3>
         </div>
         {% include '_post_meta.html' %}
         <div class="post-excerpt">{{ article.summary }}</div>
       </div>
-      <a class="continue_reading_link" title="查看 <<{{ article.title }}>> 全文" href="{{ SITEURL }}/{{ article.url }}">
+      <a class="continue_reading_link" title="查看 {{ article.title }} 全文" href="{{ SITEURL }}/{{ article.url }}">
         Continue Reading
         →</a>
     </div>

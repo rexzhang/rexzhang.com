@@ -1,0 +1,10 @@
+<!-- RSS/Atom -->
+{% if FEED_ATOM %}
+<link href="/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+{% endif %}
+{% if CATEGORY_FEED_ATOM and categories %}
+{% for category, _ in categories %}
+<link href="/{{ CATEGORY_FEED_ATOM.format(slug = category.slug) }}" type="application/atom+xml" rel="alternate"
+    title="{{ SITENAME }} Atom Feed for Category: {{ category.name }}" />
+{% endfor %}
+{% endif %}
