@@ -1,8 +1,8 @@
 # Pelican 网站正式发布设置
-import os
 import sys
+from pathlib import Path
 
-sys.path.append(os.curdir)
+sys.path.append(Path(__file__).parent)
 from pelicanconf import *  # noqa F403
 
 SITEURL = "https://rexzhang.com"
