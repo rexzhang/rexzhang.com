@@ -11,6 +11,7 @@ SITEURL = "http://127.0.0.1:8000"
 STATIC_PATHS = [
     # "images",
     "key",
+    "favicon/rexzhang-balloon.ico",
 ]
 TYPOGRIFY = True
 # PYGMENTS_RST_OPTIONS = []
@@ -28,6 +29,9 @@ DEFAULT_DATE_FORMAT = "%Y/%m/%d"
 
 # Metadata
 AUTHOR = "Rex Zhang"
+EXTRA_PATH_METADATA = {
+    "favicon/rexzhang-balloon.ico": {"path": "favicon.ico"},
+}
 
 # Feed settings
 FEED_ATOM = "feeds/atom.xml"
