@@ -3,7 +3,7 @@ Convert between python datetime and unix timestamp
 
 :author: Rex Zhang
 :date: 2014-11-11T02:35:08+08:00
-:modified: 2014-11-11T02:35:08+08:00
+:modified: 2015-01-28T02:35:08+08:00
 :status: published
 :category: Coding
 :tags: Python

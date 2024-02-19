@@ -1,9 +1,9 @@
 <div class="post-metabar">
   <em>
     <span class="stress" title="{{ article.date }}">{{ article.date|strftime('%Y/%m/%d') }}</span>
-    {% if article.modified %}
+    {% if article.modified %}{% if article.modified != article.date %}
     ~ <span class="stress" title="{{ article.modified }}">{{ article.modified|strftime('%Y/%m/%d') }}</span>
-    {% endif %} ·
+    {% endif %}{% endif %} ·
     {% if article.category %}
     <span class="stress"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></span>
     {% endif %}
