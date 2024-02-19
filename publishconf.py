@@ -2,7 +2,7 @@
 import sys
 from pathlib import Path
 
-sys.path.append(Path(__file__).parent)
+sys.path.append(Path(__file__).parent.as_posix())
 from pelicanconf import *  # noqa F403
 
 SITEURL = "https://rexzhang.com"
