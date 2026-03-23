@@ -18,8 +18,8 @@ About
 
 项目
 ----
--  `新伊甸地理`_\ ： 一个EVE游戏的在线查询工具网站 `EVE Map Online@bitbucket.org`_
--  美国国家地理精选图片下载工具： `NGPOD Wallpaper Changer@SF.net`_\ （已停止开发）
+-  `新伊甸地理`_\ : 一个EVE游戏的在线查询工具网站 `EVE Map Online@bitbucket.org`_
+-  美国国家地理精选图片下载工具: `NGPOD Wallpaper Changer@SF.net`_\ （已停止开发）
 
 .. _新伊甸地理: http://eve.sgfans.org
 .. _EVE Map Online@bitbucket.org: https://bitbucket.org/rex.zhang/eve-map-online/wiki/Home
