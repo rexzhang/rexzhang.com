@@ -27,9 +27,4 @@ About
 
 联系
 -----
--  `留言板`_
 -  eMail : Rex.Zhang AT Gmail.com
--  Twitter : @ray1ex
--  Weibo : @ray1ex
-
-.. _留言板: /pages/guestbook
